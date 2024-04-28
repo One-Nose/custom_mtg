@@ -1,0 +1,42 @@
+{
+  "url": "https://mtgcardbuilder.com/wp-content/themes/twentytwentytwo/js/creator.js",
+  "versionUrl": "https://mtgcardbuilder.com/wp-content/themes/twentytwentytwo/js/creator.js?ver=6.5.2",
+  "methods": [
+    "addtogallery",
+    "ai_art_get",
+    "ai_art_upscale",
+    "ai_saved_load",
+    "ban_user",
+    "change_nsfw_card",
+    "delete_ai_card",
+    "delete_card",
+    "delete_preset",
+    "edit_tags",
+    "editCardData",
+    "editCustomFrameData",
+    "generateAiArt",
+    "get_gallery_cards",
+    "get_gallery_cards_accept",
+    "load_preset",
+    "load_preset_data",
+    "save_for_later_card",
+    "save_for_later_card_delete",
+    "save_for_later_card_show",
+    "save_preset",
+    "search_gallery_cards",
+    "transfer_card",
+    "updateFrameCat",
+    "upscaleAiArt"
+  ],
+  "importantFields": {
+    "info": ["category", "image_url", "user_name"],
+    "data": [
+      "infoNumber",
+      "infoRarity",
+      "infoSet",
+      "infoYear",
+      "version",
+      { "frames": { "[]": ["name"] }, "text": { "{}": ["text"] } }
+    ]
+  }
+}
