@@ -5,16 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python Debugger: Fetch",
+      "name": "Python Debugger: Current File",
       "type": "debugpy",
       "request": "launch",
-      "module": "fetch"
-    },
-    {
-      "name": "Python Debugger: Translate",
-      "type": "debugpy",
-      "request": "launch",
-      "module": "translate"
+      "program": "${file}",
+      "console": "integratedTerminal"
     }
   ]
 }

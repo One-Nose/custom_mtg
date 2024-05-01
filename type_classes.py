@@ -96,6 +96,7 @@ class CardData(TypedDict):
     info: Info
     planeswalker: PlaneswalkerOrSaga | None
     saga: PlaneswalkerOrSaga | None
+    set_symbol: str | None
     text: Text
     version: str
 

@@ -86,6 +86,11 @@ class Session:
                 if 'saga' in data
                 else None
             ),
+            'set_symbol': (
+                data['setSymbolSource']
+                if data['setSymbolSource'].startswith('https://www.mtgcardbuilder.com/')
+                else None
+            ),
             'text': {  # type: ignore
                 text: {'name': settings.get('name'), 'text': settings['text']}
                 for text, settings in data['text'].items()

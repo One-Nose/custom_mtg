@@ -35,8 +35,30 @@
       "infoRarity",
       "infoSet",
       "infoYear",
+      "setSymbolSource",
       "version",
       { "frames": { "[]": ["name"] }, "text": { "{}": ["text"] } }
+    ]
+  },
+  "layouts": {
+    "added": ["adventure", "normal", "planar", "transform"],
+    "missing": [
+      "aftermath",
+      "augment",
+      "case",
+      "class",
+      "flip",
+      "host",
+      "leveler",
+      "meld",
+      "modal_dfc",
+      "mutate",
+      "prototype",
+      "reversible_card",
+      "saga",
+      "scheme",
+      "split",
+      "vanguard"
     ]
   }
 }
