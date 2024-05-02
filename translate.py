@@ -207,27 +207,6 @@ def add_card(
     text = get_text(card)
     SubElement(card_element, 'text').text = text
 
-    if (
-        card['info']['category'] == 'token'
-        or 'token'
-        in card['data']['text'].get('type', {'text': ''})['text'].lower().split()
-    ):
-        SubElement(card_element, 'token').text = '1'
-
-        for creating_card in user_cards.values():
-            if name.text in get_text(creating_card):
-                SubElement(card_element, 'reverse-related').text = get_card_name(
-                    creating_card
-                )
-
-    if any(
-        f'{s.lower()} enters the battlefield tapped' in text.lower()
-        for s in (name.text, 'this creature', 'this card')
-    ):
-        SubElement(card_element, 'cipt').text = '1'
-
-    # SubElement(card_element, 'upsidedown').text = '1'
-
     card_types: list[str] = []
 
     if 'type' in card['data']['text']:
@@ -238,49 +217,6 @@ def add_card(
 
         if match:
             card_types = match[1].lower().split()
-
-    tablerow = SubElement(card_element, 'tablerow')
-
-    match card['info']['category']:
-        case 'land':
-            tablerow.text = '0'
-        case 'artifact' | 'enchantment' | 'planeswalker':
-            tablerow.text = '1'
-        case 'creature':
-            tablerow.text = '2'
-        case 'instant' | 'sorcery':
-            tablerow.text = '3'
-        case _:
-            if 'creature' in card_types:
-                tablerow.text = '2'
-            elif 'land' in card_types:
-                tablerow.text = '0'
-            else:
-                tablerow.text = '1'
-
-    set_element = SubElement(card_element, 'set', picurl=card['info']['image_url'])
-    set_element.text = set_name
-
-    rarities = {'c': 'common', 'u': 'uncommon', 'r': 'rare', 'm': 'mythic'}
-
-    if 'token' not in card_types:
-        if card['data']['info']['rarity'] in rarities:
-            set_element.attrib['rarity'] = rarities[
-                card['data']['info']['rarity'].lower()
-            ]
-        elif card['data']['set_symbol'] is not None:
-            match = re.search(r'-(.)\.svg$', card['data']['set_symbol'])
-            if match:
-                set_element.attrib['rarity'] = rarities[match[1]]
-
-    match = re.match(r'(\d+)(/\d+)?$', card['data']['info']['number'])
-    if match:
-        set_element.attrib['num'] = match[1]
-
-    if back_side is not None:
-        SubElement(card_element, 'related', attach='transform').text = get_card_name(
-            back_side
-        )
 
     prop = SubElement(card_element, 'prop')
 
@@ -380,7 +316,7 @@ def add_card(
 
     colors = ''
     identity_colors = ''
-    for letter, name in (
+    for letter, color_name in (
         ('W', 'White'),
         ('U', 'Blue'),
         ('B', 'Black'),
@@ -388,7 +324,9 @@ def add_card(
         ('G', 'Green'),
     ):
         if (manacost is not None and letter in (manacost.text or '').upper()) or (
-            any(frame['name'] == f'{name} Pip' for frame in card['data']['frames'])
+            any(
+                frame['name'] == f'{color_name} Pip' for frame in card['data']['frames']
+            )
         ):
             colors += letter
             identity_colors += letter
@@ -413,6 +351,69 @@ def add_card(
         SubElement(prop, 'loyalty').text = translate_text(
             card['data']['text']['loyalty']['text'], card
         )
+
+    set_element = SubElement(card_element, 'set', picurl=card['info']['image_url'])
+    set_element.text = set_name
+
+    rarities = {'c': 'common', 'u': 'uncommon', 'r': 'rare', 'm': 'mythic'}
+
+    if 'token' not in card_types:
+        if card['data']['info']['rarity'] in rarities:
+            set_element.attrib['rarity'] = rarities[
+                card['data']['info']['rarity'].lower()
+            ]
+        elif card['data']['set_symbol'] is not None:
+            match = re.search(r'-(.)\.svg$', card['data']['set_symbol'])
+            if match:
+                set_element.attrib['rarity'] = rarities[match[1]]
+
+    match = re.match(r'(\d+)(/\d+)?$', card['data']['info']['number'])
+    if match:
+        set_element.attrib['num'] = match[1]
+
+    if back_side is not None:
+        SubElement(card_element, 'related', attach='transform').text = get_card_name(
+            back_side
+        )
+
+    if (
+        card['info']['category'] == 'token'
+        or 'token'
+        in card['data']['text'].get('type', {'text': ''})['text'].lower().split()
+    ):
+        for creating_card in user_cards.values():
+            if name.text in get_text(creating_card):
+                SubElement(card_element, 'reverse-related').text = get_card_name(
+                    creating_card
+                )
+
+        SubElement(card_element, 'token').text = '1'
+
+    tablerow = SubElement(card_element, 'tablerow')
+    match card['info']['category']:
+        case 'land':
+            tablerow.text = '0'
+        case 'artifact' | 'enchantment' | 'planeswalker':
+            tablerow.text = '1'
+        case 'creature':
+            tablerow.text = '2'
+        case 'instant' | 'sorcery':
+            tablerow.text = '3'
+        case _:
+            if 'creature' in card_types:
+                tablerow.text = '2'
+            elif 'land' in card_types:
+                tablerow.text = '0'
+            else:
+                tablerow.text = '1'
+
+    if any(
+        f'{s.lower()} enters the battlefield tapped' in text.lower()
+        for s in (name.text, 'this creature', 'this card')
+    ):
+        SubElement(card_element, 'cipt').text = '1'
+
+    # SubElement(card_element, 'upsidedown').text = '1'
 
 
 def translate_mana_cost(mana_cost: str, card: Card) -> tuple[str, int]:
@@ -466,12 +467,19 @@ def main():
 
     root = Element('cockatrice_carddatabase', version='4')
 
+    root.attrib['xmlns:xsi'] = 'http://www.w3.org/2001/XMLSchema-instance'
+    schema = (
+        'https://raw.githubusercontent.com/Cockatrice'
+        '/Cockatrice/master/doc/carddatabase_v4/cards.xsd'
+    )
+    root.attrib['xsi:noNamespaceSchemaLocation'] = schema
+
     sets = SubElement(root, 'sets')
     cards = SubElement(root, 'cards')
 
     for user, user_cards in tqdm(data.items(), 'Users'):
         has_original_cards = False
-        for card in tqdm(user_cards.values(), 'Cards', leave=None):
+        for i, card in enumerate(tqdm(user_cards.values(), 'Cards', leave=None)):
             if (
                 card['info']['visual_type'] == 'custom'
                 and card['info']['category'] not in ['token', 'other']
@@ -489,6 +497,9 @@ def main():
             ):
                 tqdm.write(get_card_name(card))
                 has_original_cards = True
+                break
+
+            if i > 20:
                 break
 
         if not has_original_cards:
