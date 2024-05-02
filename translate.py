@@ -361,6 +361,7 @@ def add_card(
             prop.remove(maintype)
 
     cmc = 0
+    manacost: Element | None = None
     if 'mana' in card['data']['text']:
         cost, cmc = translate_mana_cost(card['data']['text']['mana']['text'], card)
 
@@ -376,6 +377,42 @@ def add_card(
                 )
 
     SubElement(prop, 'cmc').text = str(cmc)
+
+    colors = ''
+    identity_colors = ''
+    for letter, name in (
+        ('W', 'White'),
+        ('U', 'Blue'),
+        ('B', 'Black'),
+        ('R', 'Red'),
+        ('G', 'Green'),
+    ):
+        if (manacost is not None and letter in (manacost.text or '').upper()) or (
+            any(frame['name'] == f'{name} Pip' for frame in card['data']['frames'])
+        ):
+            colors += letter
+            identity_colors += letter
+
+        elif any(
+            text_type.startswith('rules') and '{' + letter + '}' in text['text'].upper()
+            for text_type, text in card['data']['text'].items()
+        ):
+            identity_colors += letter
+
+    if colors:
+        SubElement(prop, 'colors').text = colors
+    if identity_colors:
+        SubElement(prop, 'coloridentity').text = identity_colors
+
+    if card['data']['text'].get('pt', {'text': ''})['text']:
+        SubElement(prop, 'pt').text = translate_text(
+            card['data']['text']['pt']['text'], card
+        ).strip()
+
+    if card['data']['text'].get('loyalty', {'text': ''})['text']:
+        SubElement(prop, 'loyalty').text = translate_text(
+            card['data']['text']['loyalty']['text'], card
+        )
 
 
 def translate_mana_cost(mana_cost: str, card: Card) -> tuple[str, int]:

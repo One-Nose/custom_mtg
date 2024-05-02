@@ -210,6 +210,7 @@ Josef Hoang can be your commander. If Josef Hoang is your commander, choose any 
         <maintype>Planeswalker</maintype>
         <manacost>X</manacost>
         <cmc>1</cmc>
+        <loyalty>X</loyalty>
       </prop>
     </card>
     <card>
@@ -226,6 +227,9 @@ Whenever a non-squirrel creature dies put a +1/+1 counter on Fluffy, The Necroqu
         <maintype>Creature</maintype>
         <manacost>{B/G}</manacost>
         <cmc>1</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -240,6 +244,9 @@ Whenever a non-squirrel creature dies put a +1/+1 counter on Fluffy, The Necroqu
         <maintype>Creature</maintype>
         <manacost>{B/R}{B/R}{B/R}{B/R}</manacost>
         <cmc>4</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>5/4</pt>
       </prop>
     </card>
     <card>
@@ -258,6 +265,9 @@ Whenever the player who controls Brenn, The Lucky Master flip a coin , if he win
         <maintype>Creature</maintype>
         <manacost>{U/R}{U/R}{U/R}</manacost>
         <cmc>3</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -274,6 +284,9 @@ At the beginning of each player’s end step, if a creature was put into the gra
         <maintype>Creature</maintype>
         <manacost>{B/R}{B/R}{B/R}1</manacost>
         <cmc>4</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>5/4</pt>
       </prop>
     </card>
     <card>
@@ -290,6 +303,9 @@ Whenever a creature dies, Fluffy, The Necrosquirrelmancer gets a +1/+1 counter o
         <maintype>Creature</maintype>
         <manacost>{B/G}</manacost>
         <cmc>1</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -305,6 +321,8 @@ Whenever a creature dies, Fluffy, The Necrosquirrelmancer gets a +1/+1 counter o
         <maintype>Enchantment</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -337,6 +355,8 @@ The local priestesses apparently knew of the art of brewing, as they taught Magi
         <maintype>Enchantment</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -353,6 +373,9 @@ Whenever you gain life, put a +1/+1 counter on Arakron’s mirror images.
         <maintype>Creature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -369,6 +392,9 @@ When Ysera the Dreamer enters the battlefield, you gain 1 life and draw a card.
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -386,6 +412,9 @@ Whenever another creature enters the battlefield under your control, you gain 1 
         <maintype>Crature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -402,6 +431,9 @@ Whenever another creature enters the battlefield, you gain 1 life.
         <maintype>Creature</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -613,6 +645,9 @@ Whenever another creature enters the battlefield, you gain 1 life.
         <maintype>Planeswalker</maintype>
         <manacost>2UU</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <loyalty>5</loyalty>
       </prop>
     </card>
     <card>
@@ -656,6 +691,9 @@ When Alleria Windrunner enters the battlefield, you may reveal a card you own na
         <maintype>Creature</maintype>
         <manacost>2UU</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -672,6 +710,9 @@ When Alleria Windrunner enters the battlefield, you may reveal a card you own na
         <maintype>Planeswalker</maintype>
         <manacost>3UU</manacost>
         <cmc>5</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <loyalty>5</loyalty>
       </prop>
     </card>
     <card>
@@ -690,6 +731,10 @@ The proud Aegwynn, believing herself to be a match for the menacing god, unleash
         <maintype>Creature</maintype>
         <manacost>5UUU</manacost>
         <cmc>8</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>8/8
+</pt>
       </prop>
     </card>
     <card>
@@ -708,6 +753,9 @@ When a non-Mage creature you control dies, transform Medivh, Keeper of Secrets a
         <maintype>Creature</maintype>
         <manacost>3UU</manacost>
         <cmc>5</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -726,6 +774,9 @@ Many years have passed since the Burning Legion was defeated at Mount Hyjal by t
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -744,6 +795,9 @@ As long as you have at least 7 life more than your starting life total, creature
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -761,6 +815,9 @@ Whenever an Angel you control dies, create a1/1 white Spirit creature token with
         <maintype>Creature</maintype>
         <manacost>WW</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -778,6 +835,9 @@ Tyrande Whisperwind is the current faction leader of the Night Elves. She was ch
         <maintype>Creature</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>WU</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -794,6 +854,9 @@ Tyrande Whisperwind is the current faction leader of the Night Elves. She was ch
         <maintype>Creature</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -810,6 +873,9 @@ Sylvanas Windrunner gets +2/+2 as long as you have 25 or more life.</text>
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -828,6 +894,9 @@ Whenever a creature you control dies, put a +1/+1 counter on Robett Glover.
         <maintype>Creature</maintype>
         <manacost>3W</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -847,6 +916,9 @@ Whenever Shireen Baratheon dies, you may search your library for a creature card
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -866,6 +938,9 @@ Whenever Shae deals combat damage to a player, you may return target creature ca
         <maintype>Creature</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -883,6 +958,9 @@ Whenever a creature an opponent controls dies, if it was dealt damage by Ros thi
         <maintype>Creature</maintype>
         <manacost>1UB</manacost>
         <cmc>3</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -900,6 +978,9 @@ At the beginning of your upkeep, if you have 10 or less life, you may sacrifice 
         <maintype>Creature</maintype>
         <manacost>3BB</manacost>
         <cmc>5</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -919,6 +1000,9 @@ Sacrifice a Wolf creature: Smalljon Umber gets +2/+2 until end of turn.
         <maintype>Creature</maintype>
         <manacost>3RG</manacost>
         <cmc>5</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -937,6 +1021,9 @@ Whenever a creature an opponent controls attacks, if its power is greater than i
         <maintype>Creature</maintype>
         <manacost>3GWU</manacost>
         <cmc>6</cmc>
+        <colors>WUG</colors>
+        <coloridentity>WUG</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -956,6 +1043,9 @@ At the beginning of your end step, if an opponent lost life this turn, you may p
         <maintype>Creature</maintype>
         <manacost>2BR</manacost>
         <cmc>4</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -975,6 +1065,9 @@ Whenever Myrcella Baratheon deals combat damage to a player, you may exile targe
         <maintype>Creature</maintype>
         <manacost>1GW</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -992,6 +1085,9 @@ Whenever Myrcella Baratheon deals combat damage to a player, you may exile targe
         <maintype>Creature</maintype>
         <manacost>4BB</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -1011,6 +1107,9 @@ Whenever Nymeria Sand deals combat damage to a player, you may return target cre
         <maintype>Creature</maintype>
         <manacost>2BR</manacost>
         <cmc>4</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1030,6 +1129,9 @@ Whenever Tyene Sand deals combat damage to a player, you may have that player lo
         <maintype>Creature</maintype>
         <manacost>1RW</manacost>
         <cmc>3</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1048,6 +1150,9 @@ Whenever Obara Sand deals combat damage to a player, you may sacrifice another c
         <maintype>Creature</maintype>
         <manacost>2RR</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -1067,6 +1172,9 @@ Whenever Benjen Stark attacks, you may search your library for a basic land card
         <maintype>Creature</maintype>
         <manacost>1GW</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1085,6 +1193,9 @@ Whenever a creature you control becomes blocked, you may pay {U}. If you do, tap
         <maintype>Creature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1104,6 +1215,9 @@ At the beginning of your upkeep, if you control the Monarch, draw a card.
         <maintype>Creature</maintype>
         <manacost>2GW</manacost>
         <cmc>4</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1121,6 +1235,9 @@ Sacrifice three artifacts: Target creature gets -X/-X until end of turn, where X
         <maintype>Creature</maintype>
         <manacost>2UR</manacost>
         <cmc>4</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1138,6 +1255,9 @@ Whenever Hodor becomes blocked, you may have it assign its combat damage to defe
         <maintype>Creature</maintype>
         <manacost>3GG</manacost>
         <cmc>5</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1155,6 +1275,9 @@ Whenever Ser Ilyn Payne deals combat damage to a player, that player discards a 
         <maintype>Creature</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -1172,6 +1295,9 @@ Whenever an opponent casts a noncreature spell, you may draw a card.
         <maintype>Creature</maintype>
         <manacost>2GW</manacost>
         <cmc>4</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -1190,6 +1316,9 @@ Whenever a creature you control dies, you may pay {1}. If you do, create a 1/1 w
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -1208,6 +1337,9 @@ Whenever a creature you control dies, you may pay {1}. If you do, draw a card.
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1226,6 +1358,9 @@ Other creatures you control get +1/+1 for each +1/+1 counter on Lyanna Mormont.
         <maintype>Creature</maintype>
         <manacost>1GW</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1244,6 +1379,9 @@ Whenever Joffrey Baratheon deals combat damage to a player, put a -1/-1 counter 
         <maintype>Creature</maintype>
         <manacost>1BR</manacost>
         <cmc>3</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1261,6 +1399,9 @@ Whenever Joffrey Baratheon deals combat damage to a player, put a -1/-1 counter 
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -1280,6 +1421,9 @@ Whenever Jaqen H’ghar deals combat damage to a player, you may exile target cr
         <maintype>Creature</maintype>
         <manacost>2BW</manacost>
         <cmc>4</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1299,6 +1443,9 @@ Whenever a creature an opponent controls dies, put a +1/+1 counter on Grey Worm.
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1318,6 +1465,9 @@ At the beginning of your upkeep, you may pay 3 life. If you do, create a 2/2 bla
         <maintype>Creature</maintype>
         <manacost>2UB</manacost>
         <cmc>4</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1337,6 +1487,9 @@ At the beginning of your upkeep, if you control a Island, create a 1/1 colorless
         <maintype>Creature</maintype>
         <manacost>1WW</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -1355,6 +1508,9 @@ Whenever a creature an opponent controls dies, if Bronn is tapped, you may untap
         <maintype>Creature</maintype>
         <manacost>1BR</manacost>
         <cmc>3</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -1373,6 +1529,9 @@ At the beginning of your upkeep, if you control three or more Islands, you may s
         <maintype>Creature</maintype>
         <manacost>3UB</manacost>
         <cmc>5</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1392,6 +1551,9 @@ Sacrifice a Mountain: Ygritte gains double strike until end of turn.
         <maintype>Creature</maintype>
         <manacost>1RG</manacost>
         <cmc>3</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1411,6 +1573,9 @@ At the beginning of your end step, if Wun Wun has no +1/+1 counters on it, put a
         <maintype>Creature</maintype>
         <manacost>6G</manacost>
         <cmc>7</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -1428,6 +1593,9 @@ Whenever a Soldier creature you control deals combat damage to a player, you may
         <maintype>Creature</maintype>
         <manacost>2RW</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -1446,6 +1614,9 @@ At the beginning of your end step, if Tormund Giantsbane attacked this turn, put
         <maintype>Creature</maintype>
         <manacost>3RG</manacost>
         <cmc>5</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -1465,6 +1636,9 @@ At the beginning of your end step, if Theon Greyjoy has three or more +1/+1 coun
         <maintype>Creature</maintype>
         <manacost>1UB</manacost>
         <cmc>3</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1484,6 +1658,9 @@ At the beginning of your end step, if you have no cards in hand, you may return 
         <maintype>Creature</maintype>
         <manacost>1RG</manacost>
         <cmc>3</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1502,6 +1679,9 @@ Whenever Aerys II Targaryen deals combat damage to a player, you may have target
         <maintype>Creature</maintype>
         <manacost>3BR</manacost>
         <cmc>5</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1521,6 +1701,9 @@ Whenever a creature you control deals combat damage to a player, you may gain 2 
         <maintype>Creature</maintype>
         <manacost>2WU</manacost>
         <cmc>4</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -1539,6 +1722,9 @@ Whenever a legendary creature you control dies, you may pay {1}{W}{U}. If you do
         <maintype>Creature</maintype>
         <manacost>2WU</manacost>
         <cmc>4</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -1557,6 +1743,9 @@ Whenever a creature an opponent controls dies, you may have Oberyn Martell deal 
         <maintype>Creature</maintype>
         <manacost>1RRG</manacost>
         <cmc>4</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1575,6 +1764,9 @@ At the beginning of your end step, if you control a creature with power 4 or gre
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1593,6 +1785,9 @@ At the beginning of your upkeep, if you control more creatures than each opponen
         <maintype>Creature</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1611,6 +1806,9 @@ At the beginning of your upkeep, you may exile a Soldier creature card from your
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1629,6 +1827,9 @@ Whenever Loras Tyrell deals combat damage to a player, create a 1/1 green Plant 
         <maintype>Creature</maintype>
         <manacost>1GW</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -1646,6 +1847,9 @@ At the beginning of your upkeep, you may look at the top card of your library. I
         <maintype>Creature</maintype>
         <manacost>1WW</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -1664,6 +1868,9 @@ Whenever Brienne of Tarth attacks, you may have another target attacking creatur
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1682,6 +1889,9 @@ At the beginning of your upkeep, if you control no creatures, you may search you
         <maintype>Creature</maintype>
         <manacost>2UB</manacost>
         <cmc>4</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -1700,6 +1910,9 @@ Whenever a player discards a card, you may pay {U}. If you do, draw a card.
         <maintype>Creature</maintype>
         <manacost>2UB</manacost>
         <cmc>4</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -1721,6 +1934,9 @@ in schemes.” </text>
         <maintype>Creature</maintype>
         <manacost>4UBR</manacost>
         <cmc>7</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -1740,6 +1956,9 @@ Whenever a creature an opponent controls dies, put a +1/+1 counter on Tywin Lann
         <maintype>Creature</maintype>
         <manacost>3WB</manacost>
         <cmc>5</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -1758,6 +1977,9 @@ Whenever Rhaegar Targaryen attacks, you may discard a card. If you do, draw a ca
         <maintype>Creature</maintype>
         <manacost>3UR</manacost>
         <cmc>5</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1777,6 +1999,9 @@ At the beginning of your upkeep, if Ser Jorah is exiled, you may return him to t
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -1796,6 +2021,9 @@ Whenever Sandor Clegane deals combat damage to a player, you may pay {X}. If you
         <maintype>Creature</maintype>
         <manacost>3BR</manacost>
         <cmc>5</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1815,6 +2043,9 @@ Whenever a creature an opponent controls dies, put a +1/+1 counter on Gregor Cle
         <maintype>Creature</maintype>
         <manacost>5BBB</manacost>
         <cmc>8</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -1835,6 +2066,9 @@ At the beginning of your end step, if you control a Rose creature token, you gai
         <maintype>Creature</maintype>
         <manacost>1GW</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -1855,6 +2089,9 @@ Whenever Beric Dondarrion dies or is put into exile from the battlefield, return
         <maintype>Creature</maintype>
         <manacost>2RW</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1875,6 +2112,9 @@ Whenever Robert Baratheon deals combat damage to a player, create a 1/1 red Stag
         <maintype>Creature</maintype>
         <manacost>4RR</manacost>
         <cmc>6</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>6/5</pt>
       </prop>
     </card>
     <card>
@@ -1895,6 +2135,9 @@ Whenever a creature you control deals combat damage to a player, you may draw a 
         <maintype>Creature</maintype>
         <manacost>2GGW</manacost>
         <cmc>5</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1914,6 +2157,9 @@ Whenever a creature dealt damage by Jaime Lannister this turn dies, you may unta
         <maintype>Creature</maintype>
         <manacost>2RW</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1933,6 +2179,9 @@ At the beginning of your end step, if you control five or more attacking creatur
         <maintype>Creature</maintype>
         <manacost>3RR</manacost>
         <cmc>5</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>5/3</pt>
       </prop>
     </card>
     <card>
@@ -1951,6 +2200,9 @@ Whenever a creature you control dies, you may exile it. If you do, create a 2/2 
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -1970,6 +2222,9 @@ At the beginning of your upkeep, if Ser Arthur Dayne is equipped, he gets +2/+0 
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -1988,6 +2243,9 @@ At the beginning of your upkeep, if Ser Arthur Dayne is equipped, he gets +2/+0 
         <maintype>Creature</maintype>
         <manacost>2UG</manacost>
         <cmc>4</cmc>
+        <colors>UG</colors>
+        <coloridentity>UG</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -2007,6 +2265,9 @@ Whenever a creature an opponent controls dies, put a +1/+1 counter on Night King
         <maintype>Creature</maintype>
         <manacost>3BB</manacost>
         <cmc>5</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -2026,6 +2287,9 @@ At the beginning of your upkeep, if you control at least three Dragon creatures,
         <maintype>Creature</maintype>
         <manacost>3RRWU</manacost>
         <cmc>7</cmc>
+        <colors>WUR</colors>
+        <coloridentity>WUR</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -2044,6 +2308,9 @@ Whenever Arya Stark deals combat damage to a player, exile target creature that 
         <maintype>Creature</maintype>
         <manacost>1BB</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -2062,6 +2329,9 @@ Whenever an opponent discards a card, you may draw a card.
         <maintype>Creature</maintype>
         <manacost>2WB</manacost>
         <cmc>4</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -2080,6 +2350,9 @@ Whenever you cast a red spell, you may exile the top card of your library. If it
         <maintype>Creature</maintype>
         <manacost>2WR</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -2100,6 +2373,9 @@ Whenever Jon Snow enters the battlefield or attacks, create a 1/1 white Direwolf
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -2117,6 +2393,8 @@ Whenever Jon Snow enters the battlefield or attacks, create a 1/1 white Direwolf
         <maintype>Sorcery</maintype>
         <manacost>1RR</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2137,6 +2415,8 @@ Whenever Balian of Ibelin attacks, you may choose one  —
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -2165,6 +2445,7 @@ Fiery Aura — Whenever you {T}tap this land for mana, Mountain deals 1 damage t
         <type>Legendary Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2198,6 +2479,8 @@ Fiery Aura — Whenever you {T}tap this land for mana, Mountain deals 1 damage t
         <maintype>Enchantment</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2215,6 +2498,9 @@ If that target is a creature, it deals an additional 1 damage to that creature.<
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2232,6 +2518,9 @@ If you do, Caesar’s Centurion gets +X/+0 and gains trample until end of turn, 
         <maintype>Creature</maintype>
         <manacost>2RR</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -2249,6 +2538,9 @@ If you do, create a 1/1 red Human Soldier creature token for each other attackin
         <maintype>Creature</maintype>
         <manacost>1RR</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2266,6 +2558,9 @@ Ignis Legionnaire gets +2/+0 and gains first strike until end of turn.</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -2282,6 +2577,9 @@ If that creature is tapped this way, put a +1/+1 counter on Loyal Retiarius.</te
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -2299,6 +2597,8 @@ If you do, Inferno’s Conflagration deals an additional 3 damage to each creatu
         <maintype>Sorcery</maintype>
         <manacost>4RR</manacost>
         <cmc>6</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2314,6 +2614,8 @@ If you do, Inferno’s Conflagration deals an additional 3 damage to each creatu
         <maintype>Instant</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2329,6 +2631,8 @@ If you do, Inferno’s Conflagration deals an additional 3 damage to each creatu
         <maintype>Sorcery</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2346,6 +2650,9 @@ Until end of turn, Mark Antony’s Vanguard gains double strike and gets +X /+0,
         <maintype>Creature</maintype>
         <manacost>1RR</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -2362,6 +2669,9 @@ Mientras El tío vinos esta emparejado con otra criatura obtiene el tipo de esa 
         <maintype>Criatura</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2378,6 +2688,9 @@ Mientras El tío vinos esta emparejado con otra criatura obtiene el tipo de esa 
         <maintype>Criatura</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2404,6 +2717,7 @@ Mientras El tío vinos esta emparejado con otra criatura obtiene el tipo de esa 
         <type>Tierra - Ituero Facultad</type>
         <maintype>Tierra</maintype>
         <cmc>0</cmc>
+        <coloridentity>BG</coloridentity>
       </prop>
     </card>
     <card>
@@ -2417,6 +2731,7 @@ Mientras El tío vinos esta emparejado con otra criatura obtiene el tipo de esa 
         <type>Tierra - Piscina Facultad</type>
         <maintype>Tierra</maintype>
         <cmc>0</cmc>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -2430,6 +2745,7 @@ Mientras El tío vinos esta emparejado con otra criatura obtiene el tipo de esa 
         <type>Tierra - Piscina Caos</type>
         <maintype>Tierra</maintype>
         <cmc>0</cmc>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -2444,6 +2760,7 @@ Al comienzo de tu turno ésta criatura inflige 1 punto de daño a su controlador
         <type>Criatura - Insecto</type>
         <maintype>Criatura</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -2615,6 +2932,7 @@ Al comienzo de tu turno esta criatura inflige 1 punto de daño a su controlador.
         <type>Criatura - Planta</type>
         <maintype>Criatura</maintype>
         <cmc>0</cmc>
+        <pt>0/1</pt>
       </prop>
     </card>
     <card>
@@ -2629,6 +2947,7 @@ Cuando esta criatura ataca muere al final del combate</text>
         <type>Criatura - Periodista</type>
         <maintype>Criatura</maintype>
         <cmc>0</cmc>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2642,6 +2961,7 @@ Cuando esta criatura ataca muere al final del combate</text>
         <type>Criatura - Enano</type>
         <maintype>Criatura</maintype>
         <cmc>0</cmc>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2655,6 +2975,7 @@ Cuando esta criatura ataca muere al final del combate</text>
         <type>Criatura - Pajaro</type>
         <maintype>Criatura</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -2669,6 +2990,9 @@ Cuando esta criatura ataca muere al final del combate</text>
         <maintype>Criatura</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>*/*</pt>
       </prop>
     </card>
     <card>
@@ -2683,6 +3007,8 @@ Cuando esta criatura ataca muere al final del combate</text>
         <maintype>Conjuro</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -2697,6 +3023,9 @@ Cuando esta criatura ataca muere al final del combate</text>
         <maintype>Criatura</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -2711,6 +3040,9 @@ Cuando esta criatura ataca muere al final del combate</text>
         <maintype>Criatura</maintype>
         <manacost>3BB</manacost>
         <cmc>5</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -2727,6 +3059,8 @@ Cuando esta criatura ataca muere al final del combate</text>
         <maintype>Instantáneo</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -2742,6 +3076,9 @@ Si tienes más de 25 vidas Cintia, Megan Gavana gana +1/+1.</text>
         <maintype>Criatura</maintype>
         <manacost>3W</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -2757,6 +3094,8 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Conjuro</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -2771,6 +3110,9 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Criatura</maintype>
         <manacost>3RR</manacost>
         <cmc>5</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -2786,6 +3128,9 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Criatura</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/1</pt>
       </prop>
     </card>
     <card>
@@ -2800,6 +3145,8 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Conjuro</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -2814,6 +3161,9 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Criatura</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -2828,6 +3178,9 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Criatura</maintype>
         <manacost>2GG</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -2870,6 +3223,8 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Conjuro</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -2884,6 +3239,8 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Instantáneo</maintype>
         <manacost>1BB</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -2899,6 +3256,8 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Instantáneo</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -2917,6 +3276,9 @@ Todas las criaturas ganan +2/+0 hasta el final del turno.</text>
         <maintype>Criatura</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -2933,6 +3295,9 @@ Cuando Natalia, redactora de Estigia muera regresa la carta de criatura objetivo
         <maintype>Criatura</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -2947,6 +3312,9 @@ Cuando Natalia, redactora de Estigia muera regresa la carta de criatura objetivo
         <maintype>Criatura</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -2965,6 +3333,9 @@ Yeah, it’s a party in the U.S.A.</text>
         <maintype>Criatura</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -2979,6 +3350,8 @@ Yeah, it’s a party in the U.S.A.</text>
         <maintype>Instantáneo</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -2993,6 +3366,8 @@ Yeah, it’s a party in the U.S.A.</text>
         <maintype>Conjuro</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -3008,6 +3383,8 @@ Yeah, it’s a party in the U.S.A.</text>
         <maintype>Instantáneo</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -3024,6 +3401,9 @@ Cuando Andrea, maestra acuática ataca junto a 2 piscineros coloca un contador +
         <maintype>Criatura</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -3040,6 +3420,9 @@ Cuando Andrea, maestra acuática ataca junto a 2 piscineros coloca un contador +
         <maintype>Criatura</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -3056,6 +3439,9 @@ Cuando Álvaro, eterno vigilante entra al campo de batalla puedes buscar una car
         <maintype>Criatura</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -3070,6 +3456,9 @@ Cuando Álvaro, eterno vigilante entra al campo de batalla puedes buscar una car
         <maintype>Criatura</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/5</pt>
       </prop>
     </card>
     <card>
@@ -3100,6 +3489,8 @@ Cuando Álvaro, eterno vigilante entra al campo de batalla puedes buscar una car
         <maintype>Conjuro</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -3115,6 +3506,8 @@ Tu oponente puede elegir pagar {1}, si lo hace, él copia éste hechizo.</text>
         <maintype>Instantáneo</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -3129,6 +3522,8 @@ Tu oponente puede elegir pagar {1}, si lo hace, él copia éste hechizo.</text>
         <maintype>Instantáneo</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -3144,6 +3539,9 @@ Amenaza (Esta criatura solo puede ser bloqueada por un mínimo de 2 criaturas)</
         <maintype>Criatura</maintype>
         <manacost>2RR</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -3158,6 +3556,9 @@ Amenaza (Esta criatura solo puede ser bloqueada por un mínimo de 2 criaturas)</
         <maintype>Criatura</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -3174,6 +3575,9 @@ Al comienzo de tu turno quita un contador de insecto de Noor, si Noor no tiene n
         <maintype>Criatura</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -3189,6 +3593,9 @@ Destreza (Siempre que lances un hechizo que no sea de criatura esta criatura obt
         <maintype>Criatura</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -3219,6 +3626,8 @@ Destreza (Siempre que lances un hechizo que no sea de criatura esta criatura obt
         <maintype>Instantáneo</maintype>
         <manacost>G</manacost>
         <cmc>1</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3236,6 +3645,8 @@ Coloca el resto de cartas reveladas en el fondo del mazo en cualquier orden.
         <maintype>Conjuro</maintype>
         <manacost>2GG</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3251,6 +3662,8 @@ Coloca el resto de cartas reveladas en el fondo del mazo en cualquier orden.
         <maintype>Instantaneo</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3267,6 +3680,9 @@ Tus otros Ituereños ganan +1/+1.
         <maintype>Criatura</maintype>
         <manacost>1GG</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -3282,6 +3698,9 @@ Tus otros Ituereños ganan +1/+1.
         <maintype>Criatura</maintype>
         <manacost>3GG</manacost>
         <cmc>5</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>5/3</pt>
       </prop>
     </card>
     <card>
@@ -3300,6 +3719,9 @@ Tus otros Ituereños ganan +1/+1.
         <maintype>Criatura</maintype>
         <manacost>G</manacost>
         <cmc>1</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -3330,6 +3752,7 @@ Need — Exile a card from your hand (You may pay this card’s need cost as lon
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BG</coloridentity>
       </prop>
     </card>
     <card>
@@ -3344,6 +3767,8 @@ Need — Exile a card from your hand (You may pay this card’s need cost as lon
         <maintype>Sorcery</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3359,6 +3784,8 @@ Need — Exile a card from your hand (You may pay this card’s need cost as lon
         <maintype>Artifact</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -3374,6 +3801,8 @@ Exile target creature you control and target creature an opponent controls. You 
         <maintype>Instant</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -3388,6 +3817,8 @@ Exile target creature you control and target creature an opponent controls. You 
         <maintype>Instant</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -3403,6 +3834,8 @@ Exile target creature you control and target creature an opponent controls. You 
         <maintype>Artifact</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -3419,6 +3852,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -3436,6 +3872,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>1WW</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -3452,6 +3891,9 @@ When you cycle Splendor Mare, put a lifelink counter on target creature you cont
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -3468,6 +3910,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>5W</manacost>
         <cmc>6</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/5</pt>
       </prop>
     </card>
     <card>
@@ -3484,6 +3929,7 @@ Cycling {2}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UR</coloridentity>
       </prop>
     </card>
     <card>
@@ -3500,6 +3946,7 @@ Cycling {2}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UR</coloridentity>
       </prop>
     </card>
     <card>
@@ -3516,6 +3963,7 @@ Cycling {2}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -3532,6 +3980,7 @@ Cycling {2}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -3548,6 +3997,7 @@ Cycling {2}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>RG</coloridentity>
       </prop>
     </card>
     <card>
@@ -3564,6 +4014,7 @@ Insane Asylum enters the battlefield tapped unless it was played from exile.
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BR</coloridentity>
       </prop>
     </card>
     <card>
@@ -3580,6 +4031,7 @@ Insane Asylum enters the battlefield tapped unless it was played from exile.
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BR</coloridentity>
       </prop>
     </card>
     <card>
@@ -3596,6 +4048,7 @@ Insane Asylum enters the battlefield tapped unless it was played from exile.
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WU</coloridentity>
       </prop>
     </card>
     <card>
@@ -3611,6 +4064,9 @@ Whenever you cast a kicked spell or a spell with mana value 5 or more, you gain 
         <maintype>Creature</maintype>
         <manacost>1GU</manacost>
         <cmc>3</cmc>
+        <colors>UG</colors>
+        <coloridentity>UG</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -3628,6 +4084,8 @@ Whenever you cast a kicked spell or a spell with mana value 5 or more, you gain 
         <maintype>Instant</maintype>
         <manacost>BG</manacost>
         <cmc>2</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
       </prop>
     </card>
     <card>
@@ -3643,6 +4101,8 @@ Flashback {5}{G}</text>
         <maintype>Sorcery</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3658,6 +4118,9 @@ When Scrapcaster Mage enters the battlefield, you may cast target artifact card 
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -3672,6 +4135,9 @@ When Scrapcaster Mage enters the battlefield, you may cast target artifact card 
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -3688,6 +4154,8 @@ Enchanted creature can’t attack or block.</text>
         <maintype>Enchantment</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -3704,6 +4172,8 @@ Equip {1}</text>
         <maintype>Artifact</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -3720,6 +4190,9 @@ When Angel of Prosperity enters the battlefield, you gain X life, where X is the
         <maintype>Creature</maintype>
         <manacost>4WW</manacost>
         <cmc>6</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -3735,6 +4208,9 @@ When Illuminating Angel enters the battlefield, exile another target creature yo
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -3750,6 +4226,8 @@ At the beginning of the first upkeep, if you are the starting player, you gain 3
         <maintype>Conspiracy</maintype>
         <manacost>{EVENING}{THE}{SCORE}</manacost>
         <cmc>3</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
       </prop>
     </card>
     <card>
@@ -3764,6 +4242,7 @@ At the beginning of the first upkeep, if you are the starting player, you gain 3
         <maintype>Creature</maintype>
         <manacost>2</manacost>
         <cmc>2</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -3778,6 +4257,8 @@ At the beginning of the first upkeep, if you are the starting player, you gain 3
         <maintype>Sorcery</maintype>
         <manacost>4BB</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -3793,6 +4274,8 @@ Target creature you control fights target creature you don’t control.</text>
         <maintype>Instant</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3809,6 +4292,8 @@ Target creature you control fights target creature you don’t control.</text>
         <maintype>Sorcery</maintype>
         <manacost>3G</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -3824,6 +4309,8 @@ Need {1} (You may pay this card’s Need cost at any time as long as it’s in y
         <maintype>Instant</maintype>
         <manacost>2{G/W}</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -3839,6 +4326,7 @@ Whenever Darksteel Cyclops is dealt exactly 1 damage, sacrifice it.</text>
         <maintype>Creature</maintype>
         <manacost>5</manacost>
         <cmc>5</cmc>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -3854,6 +4342,8 @@ Target opponent reaveals their hand. Choose a nonland card from it. That players
         <maintype>Sorcery</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -3874,6 +4364,8 @@ Target opponent reaveals their hand. Choose a nonland card from it. That players
         <maintype>Sorcery</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -3890,6 +4382,8 @@ Need {2} (You may pay this card’s need cost as long as it’s in you sideboard
         <maintype>Instant</maintype>
         <manacost>5B</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -3910,6 +4404,7 @@ Need {2} (You may pay this card’s need cost as long as it’s in you sideboard
         <type>Token Enchantment Creature - Wendigo</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>4/2</pt>
       </prop>
     </card>
     <card>
@@ -3924,6 +4419,8 @@ Need {2} (You may pay this card’s need cost as long as it’s in you sideboard
         <maintype>Sorcery</maintype>
         <manacost>4BB</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -3939,6 +4436,8 @@ Destroy target creature.</text>
         <maintype>Sorcery</maintype>
         <manacost>1BB</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -3953,6 +4452,9 @@ Destroy target creature.</text>
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>0/0</pt>
       </prop>
     </card>
     <card>
@@ -3968,6 +4470,8 @@ Draw a card.</text>
         <maintype>Instant</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -3982,6 +4486,8 @@ Draw a card.</text>
         <maintype>Sorcery</maintype>
         <manacost>{2/W}{2/W}{2/W}</manacost>
         <cmc>6</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -3998,6 +4504,8 @@ When Guardian Protection enters the battlefield, exile target creature you contr
         <maintype>Enchantment</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -4014,6 +4522,8 @@ When Guardian Protection enters the battlefield, exile target creature you contr
         <maintype>Instant</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -4029,6 +4539,9 @@ When Beloved Princess leaves the battlefield, create a 1/1 white Spirit creature
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -4044,6 +4557,9 @@ Whenever another enchantment enters the battlefield under your control, put a +1
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -4074,6 +4590,9 @@ Equip {2}</text>
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/1</pt>
       </prop>
     </card>
     <card>
@@ -4088,6 +4607,9 @@ Equip {2}</text>
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -4105,6 +4627,9 @@ Street Wall can block as though it was untapped.</text>
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>0/3</pt>
       </prop>
     </card>
     <card>
@@ -4123,6 +4648,9 @@ Street Wall can block as though it was untapped.</text>
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -4139,6 +4667,8 @@ When Sigil of Protection enters the battlefield, exile target nonland permanent 
         <maintype>Enchantment</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -4158,6 +4688,9 @@ When Alluring Naiads enters the battlefield, target creature gets -2/-0 until en
         <maintype>Sorcery</maintype>
         <manacost>U // 1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -4174,6 +4707,8 @@ Whenever a creature enters the battlefield under your control, you may pay {1}{U
         <maintype>Sorcery</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -4188,6 +4723,8 @@ Whenever a creature enters the battlefield under your control, you may pay {1}{U
         <maintype>Instant</maintype>
         <manacost>UU</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -4204,6 +4741,9 @@ Whenever a creature enters the battlefield under your control, you may pay {1}{U
         <maintype>Creature</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -4219,6 +4759,9 @@ Whenever you sacrifice a Blood, each opponent loses 1 life and you gain 1 life.<
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -4235,6 +4778,7 @@ Whenever you sacrifice a Blood, each opponent loses 1 life and you gain 1 life.<
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4301,6 +4845,7 @@ Whenever you sacrifice a Blood, each opponent loses 1 life and you gain 1 life.<
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4319,6 +4864,7 @@ Whenever you sacrifice a Blood, each opponent loses 1 life and you gain 1 life.<
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4335,6 +4881,9 @@ Cycling {1}{R}</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -4351,6 +4900,8 @@ Whenever enchanted creature attacks, scry 1. (Look at the top card of your libra
         <maintype>Enchantment</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -4367,6 +4918,7 @@ Cycling {R/W}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4385,6 +4937,7 @@ Cycling {R/W}</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4400,6 +4953,8 @@ Cycling {R/W}</text>
         <maintype>Enchantment</maintype>
         <manacost>GW</manacost>
         <cmc>2</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4416,6 +4971,9 @@ Cycling {1}{R}</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -4431,6 +4989,8 @@ Need {1} (You may pay this card’s Need cost at any time as long as it’s in y
         <maintype>Instant</maintype>
         <manacost>2{G/W}</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4445,6 +5005,9 @@ Need {1} (You may pay this card’s Need cost at any time as long as it’s in y
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -4461,6 +5024,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4477,6 +5041,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4492,6 +5057,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4507,6 +5073,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4523,6 +5090,7 @@ When Small Cemetery enters the battlefield, mill four cards.
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4538,6 +5106,7 @@ When Small Cemetery enters the battlefield, mill four cards.
         <type>Artifact Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4554,6 +5123,7 @@ When Small Cemetery enters the battlefield, mill four cards.
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4570,6 +5140,7 @@ Pay 1 life, {T}: Add {W} or {B}.</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4586,6 +5157,7 @@ Pay 1 life, {T}: Add {W} or {B}.</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4602,6 +5174,7 @@ Pay 1 life, {T}: Add {W} or {B}.</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4617,6 +5190,7 @@ Pay 1 life, {T}: Add {W} or {B}.</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4633,6 +5207,7 @@ Pay 1 life, {T}: Add {W} or {B}.</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4649,6 +5224,7 @@ Pay 1 life, {T}: Add {W} or {B}.</text>
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WU</coloridentity>
       </prop>
     </card>
     <card>
@@ -4665,6 +5241,9 @@ When Resilient Amoeba enters the battlefield, put a +1/+1 counter on another tar
         <maintype>Creature</maintype>
         <manacost>2GU</manacost>
         <cmc>4</cmc>
+        <colors>UG</colors>
+        <coloridentity>UG</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -4680,6 +5259,9 @@ When Resilient Amoeba enters the battlefield, put a +1/+1 counter on another tar
         <maintype>Creature</maintype>
         <manacost>1GU</manacost>
         <cmc>3</cmc>
+        <colors>UG</colors>
+        <coloridentity>UG</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -4697,6 +5279,8 @@ When Resilient Amoeba enters the battlefield, put a +1/+1 counter on another tar
         <maintype>Instant</maintype>
         <manacost>GU</manacost>
         <cmc>2</cmc>
+        <colors>UG</colors>
+        <coloridentity>UG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4713,6 +5297,9 @@ Abilities you activate that aren’t mana abilities cost {2} less to activate. T
         <maintype>Creature</maintype>
         <manacost>1RW</manacost>
         <cmc>3</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -4730,6 +5317,8 @@ Abilities you activate that aren’t mana abilities cost {2} less to activate. T
         <maintype>Instant</maintype>
         <manacost>RW</manacost>
         <cmc>2</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4745,6 +5334,9 @@ Abilities you activate that aren’t mana abilities cost {2} less to activate. T
         <maintype>Creature</maintype>
         <manacost>3BG</manacost>
         <cmc>5</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -4760,6 +5352,9 @@ When Ensouled Artifact enters the battlefield, draw a card.</text>
         <maintype>Creature</maintype>
         <manacost>1UR</manacost>
         <cmc>3</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -4776,6 +5371,9 @@ When Lightning Ball leaves the battlefield, create a Treasure token.</text>
         <maintype>Creature</maintype>
         <manacost>1UR</manacost>
         <cmc>3</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>6/1</pt>
       </prop>
     </card>
     <card>
@@ -4793,6 +5391,8 @@ When Lightning Ball leaves the battlefield, create a Treasure token.</text>
         <maintype>Instant</maintype>
         <manacost>UR</manacost>
         <cmc>2</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4808,6 +5408,8 @@ At the beginning of your upkeep, target opponent loses 1 life and you gain 1 lif
         <maintype>Enchantment</maintype>
         <manacost>2WB</manacost>
         <cmc>4</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4825,6 +5427,8 @@ At the beginning of your upkeep, target opponent loses 1 life and you gain 1 lif
         <maintype>Instant</maintype>
         <manacost>WB</manacost>
         <cmc>2</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4840,6 +5444,8 @@ Creatures you control get +1/+1 and trample until end of turn.</text>
         <maintype>Instant</maintype>
         <manacost>2GW</manacost>
         <cmc>4</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4856,6 +5462,8 @@ Until the end of your next combat phase, creatures you control get +2/+0 and tra
         <maintype>Sorcery</maintype>
         <manacost>4GW</manacost>
         <cmc>6</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4873,6 +5481,8 @@ Until the end of your next combat phase, creatures you control get +2/+0 and tra
         <maintype>Instant</maintype>
         <manacost>GW</manacost>
         <cmc>2</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4888,6 +5498,9 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</t
         <maintype>Creature</maintype>
         <manacost>4RG</manacost>
         <cmc>6</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -4905,6 +5518,8 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</t
         <maintype>Instant</maintype>
         <manacost>RG</manacost>
         <cmc>2</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
       </prop>
     </card>
     <card>
@@ -4922,6 +5537,8 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</t
         <maintype>Instant</maintype>
         <manacost>BR</manacost>
         <cmc>2</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
       </prop>
     </card>
     <card>
@@ -4940,6 +5557,9 @@ When Essence of Control enters the battlefield, choose one –
         <maintype>Creature</maintype>
         <manacost>3UB</manacost>
         <cmc>5</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -4957,6 +5577,8 @@ When Essence of Control enters the battlefield, choose one –
         <maintype>Instant</maintype>
         <manacost>UB</manacost>
         <cmc>2</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
       </prop>
     </card>
     <card>
@@ -4972,6 +5594,8 @@ When Essence of Control enters the battlefield, choose one –
         <maintype>Artifact</maintype>
         <manacost>1WU</manacost>
         <cmc>3</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
       </prop>
     </card>
     <card>
@@ -4989,6 +5613,8 @@ When Essence of Control enters the battlefield, choose one –
         <maintype>Instant</maintype>
         <manacost>WU</manacost>
         <cmc>2</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
       </prop>
     </card>
     <card>
@@ -5148,6 +5774,7 @@ As long as an artifact entered the battlefield under you control this turn, Lone
         <maintype>Creature</maintype>
         <manacost>2</manacost>
         <cmc>2</cmc>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -5163,6 +5790,7 @@ Whenever you cast an artifact or enchantment spell, put a +1/+1 counter on Encha
         <maintype>Creature</maintype>
         <manacost>2</manacost>
         <cmc>2</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5178,6 +5806,7 @@ As Unstoppable Soldier enters the battlefield, you may pay {4}. If you do, it en
         <maintype>Creature</maintype>
         <manacost>4</manacost>
         <cmc>4</cmc>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -5194,6 +5823,8 @@ Enchanted land has “{T}: Add one mana of any color in the chosen card’s colo
         <maintype>Enchantment</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -5211,6 +5842,8 @@ Choose one. If the kicker was paid, choose both –
         <maintype>Sorcery</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -5225,6 +5858,8 @@ Choose one. If the kicker was paid, choose both –
         <maintype>Enchantment</maintype>
         <manacost>3G</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -5240,6 +5875,8 @@ If you cast this spell during your main phase, put a +1/+1 counter on each of th
         <maintype>Instant</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -5258,6 +5895,9 @@ When Adrien, The High enters the battlefield, choose one —
         <maintype>Creature</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -5273,6 +5913,9 @@ Whenever a land enters the battlefield under you control, you may pay {2}{G}. If
         <maintype>Creature</maintype>
         <manacost>XG</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>0/0</pt>
       </prop>
     </card>
     <card>
@@ -5288,6 +5931,9 @@ Whenever a land enters the battlefield under you control, you may pay {2}{G}. If
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -5303,6 +5949,9 @@ When Aggressive Hydra enters the battlefield, you may have it fight target creat
         <maintype>Creature</maintype>
         <manacost>XG</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>0/0</pt>
       </prop>
     </card>
     <card>
@@ -5318,6 +5967,9 @@ Channel – {X}{G}, Discard Public Face of the Cult: Target creature gets +X/+X 
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5332,6 +5984,9 @@ Channel – {X}{G}, Discard Public Face of the Cult: Target creature gets +X/+X 
         <maintype>Creature</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -5348,6 +6003,9 @@ Each creature you control with power 4 or greater can’t be blocked by more tha
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -5362,6 +6020,9 @@ Each creature you control with power 4 or greater can’t be blocked by more tha
         <maintype>Creature</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5377,6 +6038,9 @@ When Territorial Wendigo enters the battlefield, if it was kicked, it fights ano
         <maintype>Creature</maintype>
         <manacost>3G</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -5394,6 +6058,9 @@ Spirit of the Wendigo Deity has reach and trample as long as it has a +1/+1 coun
         <maintype>Creature</maintype>
         <manacost>3G</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>4/2</pt>
       </prop>
     </card>
     <card>
@@ -5409,6 +6076,9 @@ You may play lands from your graveyard.</text>
         <maintype>Creature</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -5423,6 +6093,9 @@ You may play lands from your graveyard.</text>
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5438,6 +6111,9 @@ At the beginning of combat on your turn, if you control another creature with po
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5453,6 +6129,9 @@ At the beginning of combat on your turn, if you control another creature with po
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -5468,6 +6147,9 @@ Reach</text>
         <maintype>Creature</maintype>
         <manacost>1G</manacost>
         <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5484,6 +6166,9 @@ Whenever one or more +1/+1 counters are put on Friendly Oak, you may create a 1/
         <maintype>Creature</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -5500,6 +6185,9 @@ Evolve
         <maintype>Creature</maintype>
         <manacost>2G</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>3/1</pt>
       </prop>
     </card>
     <card>
@@ -5516,6 +6204,8 @@ When Tablet of the Forge enters the battlefield, it deals 2 damage to any target
         <maintype>Artifact</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5534,6 +6224,8 @@ Equip {3}</text>
         <maintype>Artifact</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5551,6 +6243,8 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5566,6 +6260,8 @@ Whenever you discard or cycle a card, Lightning Box deals 1 damage to any target
         <maintype>Artifact</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5580,6 +6276,8 @@ Whenever you discard or cycle a card, Lightning Box deals 1 damage to any target
         <maintype>Artifact</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5596,6 +6294,8 @@ Cycling {2}</text>
         <maintype>Sorcery</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5611,6 +6311,8 @@ Create a Treasure Token.</text>
         <maintype>Sorcery</maintype>
         <manacost>2RR</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5626,6 +6328,8 @@ Whenever you draw your second card each turn, you may cast Everkindle from your 
         <maintype>Sorcery</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5642,6 +6346,8 @@ Cycling {2}</text>
         <maintype>Sorcery</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5657,6 +6363,8 @@ Draw a Card.</text>
         <maintype>Sorcery</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5674,6 +6382,8 @@ Cycling {2}</text>
         <maintype>Instant</maintype>
         <manacost>3R</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5691,6 +6401,8 @@ Cycling {2}</text>
         <maintype>Enchantment</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -5706,6 +6418,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>4/1</pt>
       </prop>
     </card>
     <card>
@@ -5720,6 +6435,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -5735,6 +6453,9 @@ When Expendable Front-Liner dies, create a 1/1 colorless Servo artifact creature
         <maintype>Creature</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5751,6 +6472,9 @@ Madness {1}{R}</text>
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5767,6 +6491,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -5781,6 +6508,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5799,6 +6529,9 @@ Quand Alex, En Roue Libre arrive sur le champ de bataille, choississez l’un �
         <maintype>Créature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5816,6 +6549,9 @@ Quand Alex, En Roue Libre arrive sur le champ de bataille, choississez l’un �
         <maintype>Creature</maintype>
         <manacost>3R</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -5830,6 +6566,9 @@ Quand Alex, En Roue Libre arrive sur le champ de bataille, choississez l’un �
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -5845,6 +6584,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5861,6 +6603,9 @@ Cycling {R}</text>
         <maintype>Creature</maintype>
         <manacost>5R</manacost>
         <cmc>6</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>5/4</pt>
       </prop>
     </card>
     <card>
@@ -5876,6 +6621,9 @@ Whenever Reckless War Marshal attacks, you may sacrifice one or more artifacts. 
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5891,6 +6639,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>3R</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -5905,6 +6656,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5920,6 +6674,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -5934,6 +6691,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -5948,6 +6708,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5962,6 +6725,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>1R</manacost>
         <cmc>2</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -5978,6 +6744,9 @@ Madness {2}{R}</text>
         <maintype>Creature</maintype>
         <manacost>3R</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -5993,6 +6762,8 @@ Exile target creature.</text>
         <maintype>Instant</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6009,6 +6780,8 @@ Need {2} (You may pay this card’s Need cost as long as it is in your sideboard
         <maintype>Instant</maintype>
         <manacost>5B</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6027,6 +6800,8 @@ Need {2} (You may pay this card’s Need cost as long as it is in your sideboard
         <maintype>Enchantment</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6041,6 +6816,8 @@ Need {2} (You may pay this card’s Need cost as long as it is in your sideboard
         <maintype>Instant</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6057,6 +6834,8 @@ Madness {1}{B}</text>
         <maintype>Instant</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6072,6 +6851,8 @@ Discard a card, Pay 5 life: Destroy target creature.</text>
         <maintype>Enchantment</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6088,6 +6869,8 @@ Whenever a card is put into your graveyard from your library, create a Blood tok
         <maintype>Enchantment</maintype>
         <manacost>5B</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6104,6 +6887,8 @@ Madness {2}{B}</text>
         <maintype>Enchantment</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6119,6 +6904,8 @@ Madness {2}{B}</text>
         <maintype>Enchantment</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6133,6 +6920,8 @@ Madness {2}{B}</text>
         <maintype>Enchantment</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6148,6 +6937,8 @@ Madness {2}{B}</text>
         <maintype>Enchantment</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6163,6 +6954,8 @@ You gain life equal to the mana value of the sacrificed creature or discarded ca
         <maintype>Sorcery</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6178,6 +6971,8 @@ Exile target creature.</text>
         <maintype>Sorcery</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -6193,6 +6988,9 @@ Whenever Reclusive Leshen gets blocked, it gets +3/+0 until end of turn.</text>
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>0/3</pt>
       </prop>
     </card>
     <card>
@@ -6208,6 +7006,9 @@ As long as Cruel Entity has power 3 or more, it gains menace.</text>
         <maintype>Creature</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -6223,6 +7024,9 @@ As long as Cruel Entity has power 3 or more, it gains menace.</text>
         <maintype>Creature</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -6239,6 +7043,9 @@ When Talented Taxidermist enters the battlefield, mill 3.
         <maintype>Creature</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/1</pt>
       </prop>
     </card>
     <card>
@@ -6255,6 +7062,9 @@ Discard a card: Ronin gets +1/+1 until end of turn.</text>
         <maintype>Creature</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -6271,6 +7081,9 @@ When Spectral Ninjas deals combat damage to a player, that player discards a car
         <maintype>Creature</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -6286,6 +7099,9 @@ When Black Gate Assassin deals combat damage to a player, you may discard a card
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -6304,6 +7120,9 @@ When Daniel, of Floods and Deaths enters the battlefield, choose one -
         <maintype>Creature</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -6320,6 +7139,9 @@ When Corrupt Lord deals combat damage to a player, create an Extort token.</text
         <maintype>Creature</maintype>
         <manacost>4B</manacost>
         <cmc>5</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -6336,6 +7158,9 @@ Whenever Grey Returner dies, you may exile it. If you do, target player discards
         <maintype>Creature</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -6351,6 +7176,9 @@ Discard a card: Surveil 2</text>
         <maintype>Creature</maintype>
         <manacost>5B</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>5/4</pt>
       </prop>
     </card>
     <card>
@@ -6366,6 +7194,9 @@ Sacrifice an Elf: Target player loses 1 life and you gain 1 life.</text>
         <maintype>Creature</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -6382,6 +7213,9 @@ Ninjutsu {1}{B}
         <maintype>Creature</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -6396,6 +7230,9 @@ Ninjutsu {1}{B}
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -6411,6 +7248,9 @@ Ninjutsu abilities you activate cost {1} less to activate.</text>
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -6425,6 +7265,9 @@ Ninjutsu abilities you activate cost {1} less to activate.</text>
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -6440,6 +7283,9 @@ When Poison Hunter dies, target creature you don’t control gets -1/-1 until en
         <maintype>Creature</maintype>
         <manacost>1B</manacost>
         <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -6455,6 +7301,9 @@ When Poison Hunter dies, target creature you don’t control gets -1/-1 until en
         <maintype>Creature</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -6470,6 +7319,8 @@ Cycling {2}</text>
         <maintype>Artifact</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6486,6 +7337,8 @@ When Tablet of the Sea enters the battlefield, scry 2, then draw a card.
         <maintype>Artifact</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6502,6 +7355,8 @@ Cycling {2}</text>
         <maintype>Artifact</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6520,6 +7375,8 @@ Choose one -
         <maintype>Instant</maintype>
         <manacost>5U</manacost>
         <cmc>6</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6536,6 +7393,8 @@ Whenever enchanted creature deals damage to an opponent, you may draw a card.</t
         <maintype>Enchantment</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6552,6 +7411,8 @@ Flashback {3}{U}</text>
         <maintype>Instant</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6568,6 +7429,8 @@ Cycling {2}</text>
         <maintype>Sorcery</maintype>
         <manacost>1UU</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6583,6 +7446,8 @@ Draw a card.</text>
         <maintype>Instant</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6598,6 +7463,8 @@ Create a Treasure Token.</text>
         <maintype>Instant</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6613,6 +7480,8 @@ Investigate.</text>
         <maintype>Instant</maintype>
         <manacost>2UU</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6628,6 +7497,8 @@ Flashback {1}{U}</text>
         <maintype>Instant</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -6643,6 +7514,9 @@ When Pathfinder deals combat damage to a player, you may sacrifice it. If you do
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -6659,6 +7533,9 @@ At end of the combat on your turn, if Young Spy did not attack this turn, remove
         <maintype>Creature</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>0/1</pt>
       </prop>
     </card>
     <card>
@@ -6675,6 +7552,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>4UU</manacost>
         <cmc>6</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -6693,6 +7573,9 @@ When Emmanuel, Excessive Thinker enters the battlefield, choose one —
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>0/3</pt>
       </prop>
     </card>
     <card>
@@ -6709,6 +7592,9 @@ As long as Reckless Biochemist has power 2 or less, it can’t be blocked.
         <maintype>Creature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -6725,6 +7611,9 @@ When Shadow Infiltrator deals damage to a player, you may draw a card.</text>
         <maintype>Creature</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -6740,6 +7629,9 @@ Whenever Undercity Forager attacks, you may return an artifact, instant or sorce
         <maintype>Creature</maintype>
         <manacost>4UU</manacost>
         <cmc>6</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>3/5</pt>
       </prop>
     </card>
     <card>
@@ -6755,6 +7647,9 @@ When Revered Archaeologist enters the battlefield, return target artifact, insta
         <maintype>Creature</maintype>
         <manacost>3UU</manacost>
         <cmc>5</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -6771,6 +7666,9 @@ Whenever you draw your second card each turn, put a +1/+1 counter on Cloud Drake
         <maintype>Creature</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -6785,6 +7683,9 @@ Whenever you draw your second card each turn, put a +1/+1 counter on Cloud Drake
         <maintype>Creature</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -6800,6 +7701,9 @@ Sacrifice three artifacts: Draw a card.</text>
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -6815,6 +7719,9 @@ At the beginning of your end step, sacrifice a Clue token. If you do, create a T
         <maintype>Creature</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -6829,6 +7736,9 @@ At the beginning of your end step, sacrifice a Clue token. If you do, create a T
         <maintype>Creature</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/5</pt>
       </prop>
     </card>
     <card>
@@ -6844,6 +7754,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -6859,6 +7772,9 @@ When Relentless Inspector enters the battlefield, investigate.</text>
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -6874,6 +7790,9 @@ When Automated Tour Guide attacks, you may return a creature you control to its 
         <maintype>Creature</maintype>
         <manacost>4U</manacost>
         <cmc>5</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -6889,6 +7808,9 @@ Ninjutsu {3}{U}</text>
         <maintype>Creature</maintype>
         <manacost>4U</manacost>
         <cmc>5</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>5/3</pt>
       </prop>
     </card>
     <card>
@@ -6904,6 +7826,9 @@ When Hangarback Docker dies, create a 1/1 colorless Thopter artifact creature to
         <maintype>Creature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -6921,6 +7846,9 @@ If this spell was kicked, exile another target creature you control, then return
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -6935,6 +7863,9 @@ If this spell was kicked, exile another target creature you control, then return
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -6949,6 +7880,9 @@ If this spell was kicked, exile another target creature you control, then return
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -6964,6 +7898,9 @@ When Wall of Knowledge enters the battlefield, draw a card.</text>
         <maintype>Creature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>0/4</pt>
       </prop>
     </card>
     <card>
@@ -6978,6 +7915,9 @@ When Wall of Knowledge enters the battlefield, draw a card.</text>
         <maintype>Creature</maintype>
         <manacost>1U</manacost>
         <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -6993,6 +7933,9 @@ When Arcanist’s Owl enter the battlefield, look at the top four cards of your 
         <maintype>Creature</maintype>
         <manacost>{U/R}{U/R}{W/U}{W/U}</manacost>
         <cmc>4</cmc>
+        <colors>WUR</colors>
+        <coloridentity>WUR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -7008,6 +7951,8 @@ Whenever you cycle a card, you may pay {2}. If you do, Protected Realm deals 2 d
         <maintype>Enchantment</maintype>
         <manacost>4W</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7026,6 +7971,8 @@ Cycling {2}</text>
         <maintype>Instant</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7041,6 +7988,8 @@ Sacrifice Stroboscopic Light: Exile target creature you control, then return it 
         <maintype>Artifact</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7057,6 +8006,8 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7072,6 +8023,8 @@ Cycling {2}</text>
         <maintype>Enchantment</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7088,6 +8041,8 @@ When you cycle Disenchanting, you may pay {2}{W}. If you do, destroy target arti
         <maintype>Instant</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7107,6 +8062,8 @@ Cycling {1}</text>
         <maintype>Artifact</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7122,6 +8079,8 @@ Create an Extort token.</text>
         <maintype>Sorcery</maintype>
         <manacost>4WW</manacost>
         <cmc>6</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7137,6 +8096,8 @@ Create a 1/1 colorless Construct artifact enchantment creature token.</text>
         <maintype>Sorcery</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7152,6 +8113,8 @@ When Bureaucracy enters the battlefield, exile target nonland permanent until Bu
         <maintype>Enchantment</maintype>
         <manacost>3W</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7168,6 +8131,8 @@ Enchanted creature can’t attack or block.</text>
         <maintype>Enchantment</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7183,6 +8148,8 @@ Cycling {2}</text>
         <maintype>Sorcery</maintype>
         <manacost>4W</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7199,6 +8166,8 @@ Cycling {2}</text>
         <maintype>Instant</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7214,6 +8183,9 @@ When Port-Town Captain or a nontoken enchantment enters the battlefield under yo
         <maintype>Creature</maintype>
         <manacost>5W</manacost>
         <cmc>6</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -7229,6 +8201,9 @@ When Sanctum High Priest enters the battlefield, look at the top five cards of y
         <maintype>Creature</maintype>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -7244,6 +8219,9 @@ When Weapons Specialist attacks, you may attach up to one target equipment you c
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -7258,6 +8236,9 @@ When Weapons Specialist attacks, you may attach up to one target equipment you c
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -7272,6 +8253,9 @@ When Weapons Specialist attacks, you may attach up to one target equipment you c
         <maintype>Creature</maintype>
         <manacost>3W</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -7290,6 +8274,9 @@ When Cédric, Devoted Father enters the battlefield, choose one —
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7308,6 +8295,9 @@ Street Wall can block as though it was untapped.
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>0/3</pt>
       </prop>
     </card>
     <card>
@@ -7322,6 +8312,9 @@ Street Wall can block as though it was untapped.
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -7338,6 +8331,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>4W</manacost>
         <cmc>5</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7353,6 +8349,9 @@ When High City Consul enters the battlefield, you may return an enchantment you 
         <maintype>Creature</maintype>
         <manacost>3W</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -7369,6 +8368,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7384,6 +8386,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7399,6 +8404,9 @@ Cycling {2}</text>
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7414,6 +8422,9 @@ Sacrifice Soul of the Martyr: Creatures and enchantments you control gain indest
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -7428,6 +8439,9 @@ Sacrifice Soul of the Martyr: Creatures and enchantments you control gain indest
         <maintype>Creature</maintype>
         <manacost>WW</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7444,6 +8458,9 @@ Cycling {1}</text>
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7458,6 +8475,9 @@ Cycling {1}</text>
         <maintype>Creature</maintype>
         <manacost>1W</manacost>
         <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>3/1</pt>
       </prop>
     </card>
     <card>
@@ -7472,6 +8492,9 @@ Cycling {1}</text>
         <maintype>Creature</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -7488,6 +8511,9 @@ Cycling {1}</text>
         <maintype>Planeswalker</maintype>
         <manacost>6B{B/P}</manacost>
         <cmc>8</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <loyalty>4</loyalty>
       </prop>
     </card>
     <card>
@@ -7504,6 +8530,9 @@ Nightbound (If a player casts at least two spells during their own turn, it beco
         <type>Legendary Creature — Werewolf Rogue</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -7521,6 +8550,9 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
         <maintype>Creature</maintype>
         <manacost>GGWW</manacost>
         <cmc>4</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -7538,6 +8570,9 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
         <maintype>Creature</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -7553,6 +8588,8 @@ Nightbound (If a player casts at least two spells during their own turn, it beco
         <type>Creature — Werewolf</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <coloridentity>R</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -7568,6 +8605,8 @@ Nightbound (If a player casts at least two spells during their own turn, it beco
         <type>Legendary Artifact</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
       </prop>
     </card>
     <card>
@@ -7585,6 +8624,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
         <maintype>Artifact</maintype>
         <manacost>RGW</manacost>
         <cmc>3</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
       </prop>
     </card>
     <card>
@@ -7599,6 +8640,8 @@ Nightbound (If a player casts at least two spells during their own turn, it beco
         <type>Enchantment — Aura</type>
         <maintype>Enchantment</maintype>
         <cmc>0</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
       </prop>
     </card>
     <card>
@@ -7616,6 +8659,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
         <maintype>Enchantment</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7631,6 +8676,9 @@ Nightbound (If a player casts at least two spells during their own turn, it beco
         <type>Legendary Creature — Werewolf</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>6/3</pt>
       </prop>
     </card>
     <card>
@@ -7648,6 +8696,9 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
         <maintype>Creature</maintype>
         <manacost>1RGW</manacost>
         <cmc>4</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -7665,6 +8716,9 @@ Goblin Hovels — Whenever a land enters the battlefield under your control, cre
         <maintype>Creature</maintype>
         <manacost>1BRG</manacost>
         <cmc>4</cmc>
+        <colors>BRG</colors>
+        <coloridentity>BRG</coloridentity>
+        <pt>5/2</pt>
       </prop>
     </card>
     <card>
@@ -7681,6 +8735,9 @@ Skip your draw step.
         <maintype>Creature</maintype>
         <manacost>3B</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -7697,6 +8754,9 @@ Whenever you cast a Zombie from exile, put a +1/+1 counter on each creature you 
         <maintype>Creature</maintype>
         <manacost>2BGU</manacost>
         <cmc>5</cmc>
+        <colors>UBG</colors>
+        <coloridentity>UBG</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -7728,6 +8788,9 @@ Whenever another Raider you control attacks alone, it get +4/+0 until end of tur
         <maintype>Creature</maintype>
         <manacost>2RWB</manacost>
         <cmc>5</cmc>
+        <colors>WBR</colors>
+        <coloridentity>WBR</coloridentity>
+        <pt>3/5</pt>
       </prop>
     </card>
     <card>
@@ -7743,6 +8806,8 @@ Equip {1}{B}</text>
         <maintype>Artifact</maintype>
         <manacost>2B</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -7758,6 +8823,8 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
         <manacost>2R</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -7773,6 +8840,8 @@ Equip {W}</text>
         <maintype>Artifact</maintype>
         <manacost>2W</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -7788,6 +8857,8 @@ Equip {1}{U}</text>
         <maintype>Artifact</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -7804,6 +8875,8 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
         <manacost>3G</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -7818,6 +8891,7 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
         <manacost>1</manacost>
         <cmc>1</cmc>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -7834,6 +8908,9 @@ Equip {2}</text>
         <maintype>Creature</maintype>
         <manacost>2UB</manacost>
         <cmc>4</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -7853,6 +8930,9 @@ If a permanents ability would cause a player to skip their turn, counter that ab
         <maintype>Creature</maintype>
         <manacost>2UUBB</manacost>
         <cmc>6</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>6/12</pt>
       </prop>
     </card>
     <card>
@@ -7868,6 +8948,9 @@ As long as Raganvald is a creature, you can’t have more then fifteen unspent m
         <maintype>Creature</maintype>
         <manacost>3WUBRG</manacost>
         <cmc>8</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>10/10</pt>
       </prop>
     </card>
     <card>
@@ -7886,6 +8969,9 @@ If you cast a creature spell, return Zer0 to it’s owners hand.
         <maintype>Creature</maintype>
         <manacost>1WUBR</manacost>
         <cmc>5</cmc>
+        <colors>WUBR</colors>
+        <coloridentity>WUBR</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -7905,6 +8991,9 @@ Whenever Sensei Azukai of the Spore deals combat damage to a player, you may act
         <maintype>Creature</maintype>
         <manacost>BRG</manacost>
         <cmc>3</cmc>
+        <colors>BRG</colors>
+        <coloridentity>BRG</coloridentity>
+        <loyalty>4</loyalty>
       </prop>
     </card>
     <card>
@@ -7919,6 +9008,8 @@ Whenever Sensei Azukai of the Spore deals combat damage to a player, you may act
         <maintype>Instant</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -7936,6 +9027,9 @@ If Zarg’s Power and Toughness would change for any reason, instead it doesn’
         <maintype>Creature</maintype>
         <manacost>WWUUBBRRGG</manacost>
         <cmc>10</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>10/10</pt>
       </prop>
     </card>
     <card>
@@ -7952,6 +9046,9 @@ Whenever Daali, Piercing Defender deals damage to an attacking creature, Daali d
         <maintype>Creature</maintype>
         <manacost>1{U/R}G</manacost>
         <cmc>3</cmc>
+        <colors>URG</colors>
+        <coloridentity>URG</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -7967,6 +9064,8 @@ Whenever Daali, Piercing Defender deals damage to an attacking creature, Daali d
         <maintype>Instant</maintype>
         <manacost>{R/W}</manacost>
         <cmc>1</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -7983,6 +9082,9 @@ Whenever Seliya, Elf Outcast deals combat damage to a  player, search your libra
         <maintype>Creature</maintype>
         <manacost>1GG</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>3/1</pt>
       </prop>
     </card>
     <card>
@@ -8015,6 +9117,10 @@ Whenever an opponent draws or discards a card, Zeina deals 1 damage to that play
         <maintype>Creature</maintype>
         <manacost>3WUB</manacost>
         <cmc>6</cmc>
+        <colors>WUB</colors>
+        <coloridentity>WUB</coloridentity>
+        <pt>2
+5</pt>
       </prop>
     </card>
     <card>
@@ -8032,6 +9138,9 @@ Whenever Vaalia, Vengeful Guardian becomes the target of a spell or ability an o
         <maintype>Creature</maintype>
         <manacost>2WUBG</manacost>
         <cmc>6</cmc>
+        <colors>WUBG</colors>
+        <coloridentity>WUBG</coloridentity>
+        <pt>7/7</pt>
       </prop>
     </card>
     <card>
@@ -8050,6 +9159,9 @@ Mantus, Keeper of Souls can be your Commander.</text>
         <maintype>Planeswalker</maintype>
         <manacost>2BBGG</manacost>
         <cmc>6</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
+        <loyalty>6</loyalty>
       </prop>
     </card>
     <card>
@@ -8068,6 +9180,9 @@ Mania, Goddess of Chaos can be your Commander.</text>
         <maintype>Planeswalker</maintype>
         <manacost>1WUBR</manacost>
         <cmc>5</cmc>
+        <colors>WUBR</colors>
+        <coloridentity>WUBR</coloridentity>
+        <loyalty>4</loyalty>
       </prop>
     </card>
     <card>
@@ -8082,6 +9197,9 @@ Mania, Goddess of Chaos can be your Commander.</text>
         <maintype>Creature</maintype>
         <manacost>1UBR</manacost>
         <cmc>4</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -8100,6 +9218,9 @@ Immortality Operation —  {W}{W}{B}{B},{T}, Sacrifice Law, Surgeon of Death: Ta
         <maintype>Creature</maintype>
         <manacost>WUUBRR</manacost>
         <cmc>6</cmc>
+        <colors>WUBR</colors>
+        <coloridentity>WUBR</coloridentity>
+        <pt>6/6</pt>
       </prop>
     </card>
     <card>
@@ -8115,6 +9236,9 @@ Immortality Operation —  {W}{W}{B}{B},{T}, Sacrifice Law, Surgeon of Death: Ta
         <maintype>Creature</maintype>
         <manacost>WWW</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -8130,6 +9254,9 @@ Immortality Operation —  {W}{W}{B}{B},{T}, Sacrifice Law, Surgeon of Death: Ta
         <maintype>Creature</maintype>
         <manacost>1WRRR</manacost>
         <cmc>5</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>5/4</pt>
       </prop>
     </card>
     <card>
@@ -8147,6 +9274,9 @@ Crew X</text>
         <maintype>Artifact</maintype>
         <manacost>WUBRG</manacost>
         <cmc>5</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>*/*</pt>
       </prop>
     </card>
     <card>
@@ -8162,6 +9292,9 @@ Crew X</text>
         <maintype>Creature</maintype>
         <manacost>2WUUR</manacost>
         <cmc>6</cmc>
+        <colors>WUR</colors>
+        <coloridentity>WUR</coloridentity>
+        <pt>7/7</pt>
       </prop>
     </card>
     <card>
@@ -8178,6 +9311,9 @@ Whenever a creature becomes blocked by Nico Robin, Nico deals 1 damage to that c
         <maintype>Creature</maintype>
         <manacost>UUUBBB</manacost>
         <cmc>6</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>6/6</pt>
       </prop>
     </card>
     <card>
@@ -8193,6 +9329,9 @@ Whenever Brook, Soul King attacks, tap up to three target creatures, they don’
         <maintype>Creature</maintype>
         <manacost>3WUB</manacost>
         <cmc>6</cmc>
+        <colors>WUB</colors>
+        <coloridentity>WUB</coloridentity>
+        <pt>6/6</pt>
       </prop>
     </card>
     <card>
@@ -8209,6 +9348,9 @@ Whenever Brook, Soul King attacks, tap up to three target creatures, they don’
         <maintype>Creature</maintype>
         <manacost>2BBRR</manacost>
         <cmc>6</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>6/6</pt>
       </prop>
     </card>
     <card>
@@ -8227,6 +9369,9 @@ Whenever Nami blocks a creature, scry 1.
         <maintype>Creature</maintype>
         <manacost>2WUG</manacost>
         <cmc>5</cmc>
+        <colors>WUG</colors>
+        <coloridentity>WUG</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -8242,6 +9387,9 @@ Whenever Nami blocks a creature, scry 1.
         <maintype>Creature</maintype>
         <manacost>WWGG</manacost>
         <cmc>4</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -8259,6 +9407,9 @@ Whenever a pirate you control crews a vehicle, create a 1/1 Pirate creature toke
         <maintype>Creature</maintype>
         <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
         <cmc>10</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>12/12</pt>
       </prop>
     </card>
     <card>
@@ -8274,6 +9425,9 @@ Whenever you deal combat damage to a player, you may deal X damage divided as yo
         <maintype>Creature</maintype>
         <manacost>2WRG</manacost>
         <cmc>5</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -8291,6 +9445,9 @@ Whenever Luffy, Gia Sekando becomes untapped, you may tap target creature.</text
         <maintype>Creature</maintype>
         <manacost>RRRRRR</manacost>
         <cmc>6</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -8306,6 +9463,9 @@ Haki Enhanced — {R}{R}: Double Luffy, Gia Sādo’s power until end of turn.</
         <maintype>Creature</maintype>
         <manacost>WRRG</manacost>
         <cmc>4</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -8322,6 +9482,9 @@ Haki Enhanced — {R}{R}: Double Luffy, Gia Sādo’s power until end of turn.</
         <maintype>伝説の生き物</maintype>
         <manacost>WWRRGG</manacost>
         <cmc>6</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -8337,6 +9500,7 @@ Haki Enhanced — {R}{R}: Double Luffy, Gia Sādo’s power until end of turn.</
         <type>Token Artifact Creature — Food Frog</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -8355,6 +9519,9 @@ At the beginning of combat on your turn, put a -1/-1 counter on all creatures yo
         <maintype>Creature</maintype>
         <manacost>{U/P}{B/P}{R/P}</manacost>
         <cmc>3</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>0/0</pt>
       </prop>
     </card>
     <card>
@@ -8371,6 +9538,9 @@ Suspend 3 — {W}{R}{G} </text>
         <maintype>Creature</maintype>
         <manacost>WWRRGG</manacost>
         <cmc>6</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -8389,6 +9559,9 @@ Mechasuit — {U}{R},{T}: Put a +1/+1 counter on target dinosaur or human.
         <maintype>Creature</maintype>
         <manacost>2UR</manacost>
         <cmc>4</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -8403,6 +9576,9 @@ Mechasuit — {U}{R},{T}: Put a +1/+1 counter on target dinosaur or human.
         <maintype>Creature</maintype>
         <manacost>3G</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -8418,6 +9594,9 @@ When Glekglek becomes blocked, scry 2, then draw a card.</text>
         <maintype>Creature</maintype>
         <manacost>2U</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -8434,6 +9613,9 @@ Partner with Pack Raptor (When this creature enters the battlefield, target play
         <maintype>Creature</maintype>
         <manacost>1WG</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -8450,6 +9632,9 @@ Partner with Pack Raptor (When this creature enters the battlefield, target play
         <maintype>Creature</maintype>
         <manacost>5UBR</manacost>
         <cmc>8</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -8466,6 +9651,9 @@ Dinosaur Creatures you control have +1/+1.
         <maintype>Creature</maintype>
         <manacost>3BRG</manacost>
         <cmc>6</cmc>
+        <colors>BRG</colors>
+        <coloridentity>BRG</coloridentity>
+        <pt>6/6</pt>
       </prop>
     </card>
     <card>
@@ -8483,6 +9671,9 @@ Whenever Kozuu deals combat damage to a player, that player may discard X cards 
         <maintype>Creature</maintype>
         <manacost>2BBR</manacost>
         <cmc>5</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>5/1</pt>
       </prop>
     </card>
     <card>
@@ -8498,6 +9689,9 @@ Whenever Kozuu deals combat damage to a player, that player may discard X cards 
         <maintype>Creature</maintype>
         <manacost>1RRGG</manacost>
         <cmc>5</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>5/3</pt>
       </prop>
     </card>
     <card>
@@ -8517,6 +9711,9 @@ Partner (You can have two commanders if both have partner.)
         <maintype>Creature</maintype>
         <manacost>2UBG</manacost>
         <cmc>5</cmc>
+        <colors>UBG</colors>
+        <coloridentity>UBG</coloridentity>
+        <pt>5/2</pt>
       </prop>
     </card>
     <card>
@@ -8535,6 +9732,9 @@ Partner (You can have two commanders if both have partner.)
         <maintype>Creature</maintype>
         <manacost>1WRG</manacost>
         <cmc>4</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -8550,6 +9750,8 @@ Equip {B/P}{B/P}{G/P}{G/P}{B}{B}{G}{G}</text>
         <maintype>Artifact</maintype>
         <manacost>6{B/P}{B/P}{G/P}{G/P}</manacost>
         <cmc>10</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
       </prop>
     </card>
     <card>
@@ -8564,6 +9766,8 @@ Equip {B/P}{B/P}{G/P}{G/P}{B}{B}{G}{G}</text>
         <maintype>land</maintype>
         <manacost>G</manacost>
         <cmc>1</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -8578,6 +9782,8 @@ Equip {B/P}{B/P}{G/P}{G/P}{B}{B}{G}{G}</text>
         <maintype>land</maintype>
         <manacost>R</manacost>
         <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -8592,6 +9798,8 @@ Equip {B/P}{B/P}{G/P}{G/P}{B}{B}{G}{G}</text>
         <maintype>land</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -8606,6 +9814,8 @@ Equip {B/P}{B/P}{G/P}{G/P}{B}{B}{G}{G}</text>
         <maintype>land</maintype>
         <manacost>U</manacost>
         <cmc>1</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -8620,6 +9830,8 @@ Equip {B/P}{B/P}{G/P}{G/P}{B}{B}{G}{G}</text>
         <maintype>land</maintype>
         <manacost>W</manacost>
         <cmc>1</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -8635,6 +9847,8 @@ Equip {R}{R}{R}{R}{R}{R}</text>
         <maintype>Artifact</maintype>
         <manacost>RRRRR</manacost>
         <cmc>5</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
       </prop>
     </card>
     <card>
@@ -8650,6 +9864,8 @@ Curse {G}{G}{G}{G} (Pay {G}{G}{G}{G} and attach this Curse to target creature yo
         <maintype>Artifact</maintype>
         <manacost>GGGG</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -8665,6 +9881,9 @@ Curse {G}{G}{G}{G} (Pay {G}{G}{G}{G} and attach this Curse to target creature yo
         <maintype>Creature</maintype>
         <manacost>1RR</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -8680,6 +9899,9 @@ Whenever Rattleballz, Honorable Outcast enters the battlefield, if {U}{U} was sp
         <maintype>Creature</maintype>
         <manacost>{U/R}UR</manacost>
         <cmc>3</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -8697,6 +9919,9 @@ Finn, Honorable One has +1/+1 for each card in all players hands.</text>
         <maintype>Creature</maintype>
         <manacost>2WUBRG</manacost>
         <cmc>7</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -8711,6 +9936,7 @@ Finn, Honorable One has +1/+1 for each card in all players hands.</text>
         <maintype>Creature</maintype>
         <manacost>2</manacost>
         <cmc>2</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -8726,6 +9952,9 @@ Whenever a creature you control goes to the graveyard, return it to the battlefi
         <maintype>Creature</maintype>
         <manacost>3W</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/2</pt>
       </prop>
     </card>
     <card>
@@ -8742,6 +9971,9 @@ Sacrifice a permanent: create a number of treasure tokens equal to the sacrifice
         <maintype>Creature</maintype>
         <manacost>{2/U}{2/B}{2/R}</manacost>
         <cmc>6</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -8757,6 +9989,9 @@ Phasing</text>
         <maintype>Creature</maintype>
         <manacost>3UR</manacost>
         <cmc>5</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -8774,6 +10009,9 @@ Whenever you put a single counter on an artifact, you may put a land card from y
         <maintype>Creature</maintype>
         <manacost>1URG</manacost>
         <cmc>4</cmc>
+        <colors>URG</colors>
+        <coloridentity>URG</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -8836,6 +10074,9 @@ Multicolored spells cost {W}{U}{B}{R}{G} less to cast.</text>
         <maintype>Creature</maintype>
         <manacost>WUBRG</manacost>
         <cmc>5</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -8854,6 +10095,9 @@ Whenever you sacrifice a clue token, remove a Tenebrimagicology counter from Pep
         <maintype>Creature</maintype>
         <manacost>2WR</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WBR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -8869,6 +10113,7 @@ Sacrifice a creature: Create a 5/5 black Demon Creature Token with flying and ha
         <type>Legendary Creature — Candy Wizard</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>2/6</pt>
       </prop>
     </card>
     <card>
@@ -8885,6 +10130,8 @@ At the beginning of your Upkeep, sacrifice Prismo unless you remove a wish count
         <maintype>Enchantment</maintype>
         <manacost>5WWUU</manacost>
         <cmc>9</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
       </prop>
     </card>
     <card>
@@ -8900,6 +10147,9 @@ Whenever Lemongrab, Earl of Lemon attacks, target player may discard a number of
         <maintype>Creature</maintype>
         <manacost>2WR</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -8943,6 +10193,8 @@ Beneficial Alliance can be your commander.</text>
         <maintype>Enchantment</maintype>
         <manacost>WUBRG</manacost>
         <cmc>5</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
       </prop>
     </card>
     <card>
@@ -8960,6 +10212,9 @@ Beneficial Alliance can be your commander.</text>
         <maintype>Creature</maintype>
         <manacost>7BBB</manacost>
         <cmc>10</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>18/18</pt>
       </prop>
     </card>
     <card>
@@ -8975,6 +10230,9 @@ When Tree Trunks enters the battlefield, create two food tokens, then search you
         <maintype>Creature</maintype>
         <manacost>1WG</manacost>
         <cmc>3</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -8991,6 +10249,9 @@ Simon, Ice King gets +1/+1 for each Penguin Creature you control.</text>
         <maintype>Creature</maintype>
         <manacost>3WU</manacost>
         <cmc>5</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -9007,6 +10268,9 @@ Whenever Marceline, Vampire Queen attacks, put a -1/-1 counter on each other Vam
         <maintype>Creature</maintype>
         <manacost>3WR</manacost>
         <cmc>5</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>6/6</pt>
       </prop>
     </card>
     <card>
@@ -9023,6 +10287,9 @@ Cloning — Whenever a Candy Creature dies, create a token copy of that creature
         <maintype>Creature</maintype>
         <manacost>2WUR</manacost>
         <cmc>5</cmc>
+        <colors>WUR</colors>
+        <coloridentity>WUR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -9038,6 +10305,9 @@ Cloning — Whenever a Candy Creature dies, create a token copy of that creature
         <maintype>Creature</maintype>
         <manacost>WG</manacost>
         <cmc>2</cmc>
+        <colors>WG</colors>
+        <coloridentity>WG</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -9053,6 +10323,9 @@ Penguins you control have +1/+1 and Haste.</text>
         <maintype>Creature</maintype>
         <manacost>WUR</manacost>
         <cmc>3</cmc>
+        <colors>WUR</colors>
+        <coloridentity>WUR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -9069,6 +10342,9 @@ At the beginning of combat on your turn, you may attach any number of equipment 
         <maintype>Creature</maintype>
         <manacost>6W</manacost>
         <cmc>7</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>6/7</pt>
       </prop>
     </card>
     <card>
@@ -9085,6 +10361,9 @@ At the beginning of combat on your turn, you may attach any number of equipment 
         <maintype>Planeswalker</maintype>
         <manacost>RRRRRR</manacost>
         <cmc>6</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <loyalty>4</loyalty>
       </prop>
     </card>
     <card>
@@ -9100,6 +10379,9 @@ IM CRASHING!! — LSP gets +1/+1 for each creature you don’t control.</text>
         <maintype>Creature</maintype>
         <manacost>1UR</manacost>
         <cmc>3</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9117,6 +10399,9 @@ If a card you control would put one or more counters on a permanent, it puts twi
         <maintype>Creature</maintype>
         <manacost>2WUR</manacost>
         <cmc>5</cmc>
+        <colors>WUR</colors>
+        <coloridentity>WUR</coloridentity>
+        <pt>*/5</pt>
       </prop>
     </card>
     <card>
@@ -9133,6 +10418,9 @@ Hero code — If a creature dealt damage by Jake the Dog during this turns comba
         <maintype>Creature</maintype>
         <manacost>2WUG</manacost>
         <cmc>5</cmc>
+        <colors>WUG</colors>
+        <coloridentity>WUG</coloridentity>
+        <pt>5/6</pt>
       </prop>
     </card>
     <card>
@@ -9149,6 +10437,9 @@ Hero code — If a creature dealt damage by Jake the Dog during this turns comba
         <maintype>Planeswalker</maintype>
         <manacost>4WBR</manacost>
         <cmc>7</cmc>
+        <colors>WBR</colors>
+        <coloridentity>WBR</coloridentity>
+        <loyalty>5</loyalty>
       </prop>
     </card>
     <card>
@@ -9168,6 +10459,9 @@ Essential — {B}{R}: Return Serana from your graveyard to the battlefield tappe
         <maintype>Creature</maintype>
         <manacost>3WBR</manacost>
         <cmc>6</cmc>
+        <colors>WBR</colors>
+        <coloridentity>WBR</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -9185,6 +10479,9 @@ Whenever a Vampire creature enters the battlefield, gain control of all vampires
         <maintype>Creature</maintype>
         <manacost>3WBR</manacost>
         <cmc>6</cmc>
+        <colors>WBR</colors>
+        <coloridentity>WBR</coloridentity>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -9200,6 +10497,7 @@ Whenever a Vampire creature enters the battlefield, gain control of all vampires
         <type>Token Creature — Wall</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -9231,6 +10529,8 @@ Whenever a Vampire creature enters the battlefield, gain control of all vampires
         <type>Legendary Token Creature — Dragonborn</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <coloridentity>R</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -9248,6 +10548,7 @@ Whenever a Vampire creature enters the battlefield, gain control of all vampires
         <type>Token Creature — Soldier</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9263,6 +10564,7 @@ Whenever a Vampire creature enters the battlefield, gain control of all vampires
         <type>Token Creature — Soldier</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9281,6 +10583,7 @@ Whenever a Vampire creature enters the battlefield, gain control of all vampires
         <type>Token Creature — Draugr</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9297,6 +10600,9 @@ When this creature dies, if it was killed by a white creature, instead that crea
         <maintype>Creature</maintype>
         <manacost>5BRR</manacost>
         <cmc>8</cmc>
+        <colors>BR</colors>
+        <coloridentity>BR</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -9312,6 +10618,9 @@ When this creature dies, if it was killed by a white creature, instead that crea
         <maintype>Creature</maintype>
         <manacost>3BBRR</manacost>
         <cmc>7</cmc>
+        <colors>BR</colors>
+        <coloridentity>WBRG</coloridentity>
+        <pt>4/6</pt>
       </prop>
     </card>
     <card>
@@ -9327,6 +10636,9 @@ Flying, first-strike, haste</text>
         <maintype>Creature</maintype>
         <manacost>2UR</manacost>
         <cmc>4</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -9343,6 +10655,9 @@ Lightning Storm — {2}{W},{T}: Zahkriisos, the Warrior deals 3 damage to target
         <maintype>Creature</maintype>
         <manacost>1WW</manacost>
         <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -9359,6 +10674,9 @@ When Vulthuryol, Guardian of Black Reach enters the battlefield, Venture into th
         <maintype>Creature</maintype>
         <manacost>2WR</manacost>
         <cmc>4</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -9374,6 +10692,9 @@ If a snake creature would deal damage to Vuljotnaak, it instead deals double tha
         <maintype>Creature</maintype>
         <manacost>2BG</manacost>
         <cmc>4</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -9389,6 +10710,9 @@ Alduin, the World Eater costs {2} less to cast.</text>
         <maintype>Creature</maintype>
         <manacost>1WUB</manacost>
         <cmc>4</cmc>
+        <colors>WUB</colors>
+        <coloridentity>WUB</coloridentity>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -9403,6 +10727,9 @@ Alduin, the World Eater costs {2} less to cast.</text>
         <maintype>Creature</maintype>
         <manacost>1WR</manacost>
         <cmc>3</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>4/2</pt>
       </prop>
     </card>
     <card>
@@ -9418,6 +10745,9 @@ Flying, haste, phasing</text>
         <maintype>Creature</maintype>
         <manacost>3UB</manacost>
         <cmc>5</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -9433,6 +10763,9 @@ Flying, haste, phasing</text>
         <maintype>Creature</maintype>
         <manacost>3UB</manacost>
         <cmc>5</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -9449,6 +10782,9 @@ At the beginning of your pre-combat main phase, exile the top card of your libra
         <maintype>Creature</maintype>
         <manacost>2RG</manacost>
         <cmc>4</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -9465,6 +10801,8 @@ Enchanted creature has, “When this creature deals combat damage to another cre
         <maintype>Enchantment</maintype>
         <manacost>B</manacost>
         <cmc>1</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
       </prop>
     </card>
     <card>
@@ -9482,6 +10820,9 @@ Suspend 10 — {0}</text>
         <maintype>Creature</maintype>
         <manacost>3BBB</manacost>
         <cmc>6</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -9499,6 +10840,9 @@ When Odahviing, Unexpected Ally enters the battlefield, scry 3 then draw three c
         <maintype>Creature</maintype>
         <manacost>1{W/U}{W/U}</manacost>
         <cmc>3</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -9515,6 +10859,9 @@ When Odahviing, Unexpected Ally enters the battlefield, scry 3 then draw three c
         <maintype>Creature</maintype>
         <manacost>3{B/P}B</manacost>
         <cmc>5</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9531,6 +10878,9 @@ Fireball — {R}{R}{R},{T}: Krosis, the Thief deals 3 damage divided as you choo
         <maintype>Creature</maintype>
         <manacost>UR</manacost>
         <cmc>2</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>2/3</pt>
       </prop>
     </card>
     <card>
@@ -9546,6 +10896,9 @@ Fireball — {R}{R}{R},{T}: Krosis, the Thief deals 3 damage divided as you choo
         <maintype>Creature</maintype>
         <manacost>4WWB</manacost>
         <cmc>7</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -9563,6 +10916,9 @@ When this creature dies, search your library for a card named Sovngarde and put 
         <maintype>Creature</maintype>
         <manacost>2{W/B}{W/B}{W/B}</manacost>
         <cmc>5</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>2/5</pt>
       </prop>
     </card>
     <card>
@@ -9579,6 +10935,9 @@ When this creature dies, search your library for a card named Sovngarde and put 
         <maintype>Creature</maintype>
         <manacost>XWB</manacost>
         <cmc>3</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9595,6 +10954,9 @@ When this creature dies, search your library for a card named Sovngarde and put 
         <maintype>Creature</maintype>
         <manacost>1UB</manacost>
         <cmc>3</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -9611,6 +10973,9 @@ When this creature dies, search your library for a card named Sovngarde and put 
         <maintype>Creature</maintype>
         <manacost>2UBR</manacost>
         <cmc>5</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -9627,6 +10992,9 @@ At the beginning of your combat phase, create two 1/1 black Draugr creature toke
         <maintype>Creature</maintype>
         <manacost>4B</manacost>
         <cmc>5</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>3/6</pt>
       </prop>
     </card>
     <card>
@@ -9645,6 +11013,9 @@ At the beginning of your combat phase, create two 1/1 black Draugr creature toke
         <maintype>Planeswalker</maintype>
         <manacost>2WUBRG</manacost>
         <cmc>7</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <loyalty>6</loyalty>
       </prop>
     </card>
     <card>
@@ -9659,6 +11030,7 @@ At the beginning of your combat phase, create two 1/1 black Draugr creature toke
         <type>Land — Castle</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WUBRG</coloridentity>
       </prop>
     </card>
     <card>
@@ -9676,6 +11048,7 @@ You may cast this spell only if you control High Hrothgar.
         <maintype>Creature</maintype>
         <manacost>5CC</manacost>
         <cmc>7</cmc>
+        <pt>5/10</pt>
       </prop>
     </card>
     <card>
@@ -9724,6 +11097,9 @@ When Miraak, the True Dragonborn leaves the battlefield, put a number of Loyalty
         <maintype>Creature</maintype>
         <manacost>2UBR</manacost>
         <cmc>5</cmc>
+        <colors>UBR</colors>
+        <coloridentity>UBR</coloridentity>
+        <pt>5/7</pt>
       </prop>
     </card>
     <card>
@@ -9759,6 +11135,7 @@ Equip {3}</text>
         <type>Creature Token — Vampire</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -9777,6 +11154,7 @@ When Castle Volkihar enters the battlefield, gain 2 life and create a Blood Toke
         <type>Land — Castle</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BR</coloridentity>
       </prop>
     </card>
     <card>
@@ -9796,6 +11174,7 @@ When Inner Sanctum leaves the battlefield, search your library or graveyard for 
         <type>Legendary Land — Castle</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WUR</coloridentity>
       </prop>
     </card>
     <card>
@@ -9813,6 +11192,8 @@ Equip {2}{W}</text>
         <maintype>Artifact</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
       </prop>
     </card>
     <card>
@@ -9832,6 +11213,7 @@ Sneak Attack — {G/P}{G/P}{T}: This creature deals damage equal to its power to
         <type>Creature Token — Thief</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -9848,6 +11230,7 @@ Sneak Attack — {G/P}{G/P}{T}: This creature deals damage equal to its power to
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>BG</coloridentity>
       </prop>
     </card>
     <card>
@@ -9865,6 +11248,7 @@ Sneak Attack — {G/P}{G/P}{T}: This creature deals damage equal to its power to
         <type>Legendary Land — Castle</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WUBRG</coloridentity>
       </prop>
     </card>
     <card>
@@ -9897,6 +11281,7 @@ When Markarth enters the battlefield, return up to one target artifact card from
         <type>Land — Village</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WG</coloridentity>
       </prop>
     </card>
     <card>
@@ -9913,6 +11298,7 @@ When Markarth enters the battlefield, return up to one target artifact card from
         <type>Legendary Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WUBRG</coloridentity>
       </prop>
     </card>
     <card>
@@ -9928,6 +11314,8 @@ When Markarth enters the battlefield, return up to one target artifact card from
         <maintype>Enchantment</maintype>
         <manacost>3U</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -9943,6 +11331,8 @@ When Markarth enters the battlefield, return up to one target artifact card from
         <maintype>Artifact</maintype>
         <manacost>2UB</manacost>
         <cmc>4</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
       </prop>
     </card>
     <card>
@@ -9959,6 +11349,7 @@ When Markarth enters the battlefield, return up to one target artifact card from
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UG</coloridentity>
       </prop>
     </card>
     <card>
@@ -9975,6 +11366,7 @@ When Markarth enters the battlefield, return up to one target artifact card from
         <type>Legendary Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>UB</coloridentity>
       </prop>
     </card>
     <card>
@@ -9991,6 +11383,7 @@ When Throat of the World enters the battlefield, return a land you control to it
         <type>Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -10007,6 +11400,9 @@ Whenever Ahzidal, the Vengeful deals damage to a creature, if that creature is a
         <maintype>Creature</maintype>
         <manacost>2RR</manacost>
         <cmc>4</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -10024,6 +11420,9 @@ Dragon creature cards you own have cascade.
         <maintype>Creature</maintype>
         <manacost>2WUBRG</manacost>
         <cmc>7</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>6/10</pt>
       </prop>
     </card>
     <card>
@@ -10039,6 +11438,8 @@ Dragon creature cards you own have cascade.
         <maintype>Enchantment</maintype>
         <manacost>2GG</manacost>
         <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
       </prop>
     </card>
     <card>
@@ -10055,6 +11456,7 @@ Dragon creature cards you own have cascade.
         <type>Land — Castle</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WR</coloridentity>
       </prop>
     </card>
     <card>
@@ -10071,6 +11473,7 @@ Dragon creature cards you own have cascade.
         <type>Land — Castle</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WU</coloridentity>
       </prop>
     </card>
     <card>
@@ -10090,6 +11493,9 @@ If you cast General Tullius, Sacrifice Ulfric Stormcloak.</text>
         <maintype>Creature</maintype>
         <manacost>4WU</manacost>
         <cmc>6</cmc>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -10109,6 +11515,9 @@ If you cast Ulfric Stormcloak, Sacrifice General Tullius.</text>
         <maintype>Creature</maintype>
         <manacost>4WR</manacost>
         <cmc>6</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -10127,6 +11536,9 @@ Cards you control have Protection from Draugr.
         <maintype>Creature</maintype>
         <manacost>4W{W/B}{W/B}</manacost>
         <cmc>7</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>6/7</pt>
       </prop>
     </card>
     <card>
@@ -10146,6 +11558,9 @@ If an effect forces you to discard a card, you may instead discard that card to 
         <maintype>Creature</maintype>
         <manacost>4{U/B}{U/B}{U/B}</manacost>
         <cmc>7</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>*/*</pt>
       </prop>
     </card>
     <card>
@@ -10162,6 +11577,9 @@ When Clavicus Vile becomes untapped, it deals X damage to each opponent where X 
         <maintype>Creature</maintype>
         <manacost>4{W/B}{B/R}{R/W}</manacost>
         <cmc>7</cmc>
+        <colors>WBR</colors>
+        <coloridentity>WBR</coloridentity>
+        <pt>4/7</pt>
       </prop>
     </card>
     <card>
@@ -10181,6 +11599,9 @@ When Clavicus Vile becomes untapped, it deals X damage to each opponent where X 
         <maintype>Creature</maintype>
         <manacost>4{W/U}{U/B}{B/R}{R/G}{G/W}</manacost>
         <cmc>9</cmc>
+        <colors>WUBRG</colors>
+        <coloridentity>WUBRG</coloridentity>
+        <pt>7/7</pt>
       </prop>
     </card>
     <card>
@@ -10199,6 +11620,7 @@ When Sovnegarde enters the battlefield, gain 2 life.
         <type>Legendary Land</type>
         <maintype>Land</maintype>
         <cmc>0</cmc>
+        <coloridentity>WB</coloridentity>
       </prop>
     </card>
     <card>
@@ -10214,6 +11636,9 @@ Whenever Ser Rogrian Draconus deals or takes damage, put a +1/+1 on it.</text>
         <maintype>Creature</maintype>
         <manacost>1{R/W}{R/W}</manacost>
         <cmc>3</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -10228,6 +11653,9 @@ The first Dragon or Dinosaur you cast on each of your turns costs {0} and can’
         <type>Legendary Creature - Dragon Dinosaur Avatar</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>8/8</pt>
       </prop>
     </card>
     <card>
@@ -10244,6 +11672,9 @@ At the beginning of combat on your turn, if your devotion to red, green and whit
         <maintype>Creature</maintype>
         <manacost>RGW</manacost>
         <cmc>3</cmc>
+        <colors>WRG</colors>
+        <coloridentity>WRG</coloridentity>
+        <pt>0/2</pt>
       </prop>
     </card>
     <card>
@@ -10260,6 +11691,8 @@ Sacrifice Anila: Exile target Eldrazi spell and counter all abilities your oppon
         <maintype>Creature</maintype>
         <manacost>1UU</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
       </prop>
     </card>
     <card>
@@ -10276,6 +11709,8 @@ Whenever a player discards a card, he or she reveals the top card of its library
         <maintype>Creature</maintype>
         <manacost>2RG</manacost>
         <cmc>4</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
       </prop>
     </card>
     <card>
@@ -10292,6 +11727,9 @@ Whenever a Merfolk you control deals combat damage to a player, you may draw a c
         <maintype>Creature</maintype>
         <manacost>2UU</manacost>
         <cmc>4</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10308,6 +11746,9 @@ Whenever a Merfolk you control deals combat damage to a player, that player disc
         <maintype>Creature</maintype>
         <manacost>2BB</manacost>
         <cmc>4</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/4</pt>
       </prop>
     </card>
     <card>
@@ -10323,6 +11764,9 @@ Creatures you control has  “Ward 1” and “Whenever this creature deals comb
         <maintype>Creature</maintype>
         <manacost>3WB</manacost>
         <cmc>5</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -10339,6 +11783,9 @@ Serra gets +1/+0 for every equipment attatched to her.</text>
         <maintype>Creature</maintype>
         <manacost>1UR</manacost>
         <cmc>3</cmc>
+        <colors>UR</colors>
+        <coloridentity>UR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10354,6 +11801,9 @@ As long as Pequeño Marrón is paired with another creature, each of those creat
         <maintype>Creature</maintype>
         <manacost>1GG</manacost>
         <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10369,6 +11819,9 @@ Whenever you draw a card, tap target creature, put a stun counter on it.</text>
         <maintype>Creature</maintype>
         <manacost>UUU</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10385,6 +11838,9 @@ Sacrifice three creatures: Return Skye, Selfish Celestial from your graveyard to
         <maintype>Creature</maintype>
         <manacost>2WB</manacost>
         <cmc>4</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -10401,6 +11857,9 @@ Whenever you attack with two or more creatures, draw a card. </text>
         <maintype>Creature</maintype>
         <manacost>2WW</manacost>
         <cmc>4</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -10417,6 +11876,9 @@ Equip abilities you activate that target Sydryk, Fury of the Sands cost {2} less
         <maintype>Creature</maintype>
         <manacost>2RRR</manacost>
         <cmc>5</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -10432,6 +11894,9 @@ Whenever another non-Fungus creature dies, create a 0/1 black and green Fungus c
         <maintype>Creature</maintype>
         <manacost>{B/G}{B/G}</manacost>
         <cmc>2</cmc>
+        <colors>BG</colors>
+        <coloridentity>BG</coloridentity>
+        <pt>1/3</pt>
       </prop>
     </card>
     <card>
@@ -10450,6 +11915,9 @@ Whenever another non-Fungus creature dies, create a 0/1 black and green Fungus c
         <maintype>Creature</maintype>
         <manacost>1RR</manacost>
         <cmc>3</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10466,6 +11934,9 @@ Whenever Siociwr, Reckless Juggernaut takes combat damage, untap all attacking c
         <maintype>Creature</maintype>
         <manacost>2RRG</manacost>
         <cmc>5</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>3/4</pt>
       </prop>
     </card>
     <card>
@@ -10481,6 +11952,9 @@ Whenever Siociwr, Reckless Juggernaut takes combat damage, untap all attacking c
         <maintype>Creature</maintype>
         <manacost>2UB</manacost>
         <cmc>4</cmc>
+        <colors>UB</colors>
+        <coloridentity>UB</coloridentity>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -10498,6 +11972,9 @@ When Kagelar leaves the battlefield, you get an experience counter.</text>
         <maintype>Creature</maintype>
         <manacost>1RW</manacost>
         <cmc>3</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10513,6 +11990,9 @@ When Kagelar leaves the battlefield, you get an experience counter.</text>
         <maintype>Creature</maintype>
         <manacost>GUR</manacost>
         <cmc>3</cmc>
+        <colors>URG</colors>
+        <coloridentity>URG</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10528,6 +12008,9 @@ Divine Smite — {T}: Adalet deals damage equal to its power to any other target
         <type>Legendary Creature - Elf Archer Cleric</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <colors>WR</colors>
+        <coloridentity>WR</coloridentity>
+        <pt>*/2</pt>
       </prop>
     </card>
     <card>
@@ -10545,6 +12028,9 @@ At the beginning of your end step, if two or more creatures entered the battlefi
         <maintype>Creature</maintype>
         <manacost>1BB</manacost>
         <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10560,6 +12046,9 @@ Whenever you draw a card, if its the seventh card you drew this turn, take an ex
         <maintype>Creature</maintype>
         <manacost>1UU</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -10575,6 +12064,7 @@ Whenever you draw a card, if its the seventh card you drew this turn, take an ex
         <type>Token Legendary Creature - Cat Elemental</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10591,6 +12081,9 @@ Whenever you cast an spell with mana cost 6 or higher, copy that spell.(A copy o
 Elemental Dryad Druid</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <colors>URG</colors>
+        <coloridentity>URG</coloridentity>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -10607,6 +12100,9 @@ Whenever an elemental creature enters the battlefield under your control, if you
         <maintype>Creature</maintype>
         <manacost>1RG</manacost>
         <cmc>3</cmc>
+        <colors>RG</colors>
+        <coloridentity>RG</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10622,6 +12118,9 @@ Justice is forgotten, only vengeance remains.</text>
         <type>Legendary Creature - Human Assassin</type>
         <maintype>Creature</maintype>
         <cmc>0</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -10638,6 +12137,9 @@ Whenever another creature you control dies, investigate. If that creature was a 
         <maintype>Creature</maintype>
         <manacost>1UU</manacost>
         <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>2/2</pt>
       </prop>
     </card>
   </cards>
