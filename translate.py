@@ -42,7 +42,7 @@ def add_set(sets: Element, card: Card) -> str:
         longname.text = set_longname
 
         settype = SubElement(set_element, 'settype')
-        settype.text = 'Custom'
+        settype.text = 'MTGCardBuilder'
 
         SubElement(set_element, 'releasedate')
 
@@ -375,6 +375,28 @@ def add_card(
         SubElement(card_element, 'related', attach='transform').text = get_card_name(
             back_side
         )
+
+    for token_string, token_name in (
+        ('blood token', 'Blood Token'),
+        ('clue token', 'Clue Token'),
+        ('food token', 'Food Token'),
+        ('gold token', 'Gold Token'),
+        ('incubator token', 'Incubator Token'),
+        ('junk token', 'Junk Token'),
+        ('map token', 'Map Token'),
+        ('powerstone token', 'Powerstone Token'),
+        ('treasure token', 'Treasure Token'),
+        ('shard token', 'Shard Token'),
+        ('walker token', 'Walker Token'),
+        # ('1/1 white spirit creature token with flying', 'Spirit Token'),
+        # ('4/4 white angel creature token with flying', 'Angel Token'),
+        # TODO: parse tokens.xml for tokens
+    ):
+        if token_string in get_text(card).lower():
+            SubElement(card_element, 'related').text = token_name
+
+    for match in re.findall(r'.+ creature token .+', get_text(card).lower()):
+        tqdm.write(match)
 
     if (
         card['info']['category'] == 'token'
