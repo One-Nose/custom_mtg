@@ -2,7 +2,7 @@ import json
 import re
 from collections.abc import Callable
 from difflib import get_close_matches
-from xml.etree.ElementTree import Element, SubElement, indent, tostring
+from xml.etree.ElementTree import Element, SubElement, fromstring, indent, tostring
 
 import requests
 from tqdm import tqdm
@@ -198,6 +198,7 @@ def add_card(
     user_cards: dict[str, Card],
     back_side: Card | None,
     is_back_side: bool,
+    tokens: dict[str, str],
 ) -> None:
     card_element = SubElement(cards, 'card')
 
@@ -316,13 +317,7 @@ def add_card(
 
     colors = ''
     identity_colors = ''
-    for letter, color_name in (
-        ('W', 'White'),
-        ('U', 'Blue'),
-        ('B', 'Black'),
-        ('R', 'Red'),
-        ('G', 'Green'),
-    ):
+    for letter, color_name in color_names.items():
         if (manacost is not None and letter in (manacost.text or '').upper()) or (
             any(
                 frame['name'] == f'{color_name} Pip' for frame in card['data']['frames']
@@ -376,23 +371,14 @@ def add_card(
             back_side
         )
 
-    for token_string, token_name in (
-        ('blood token', 'Blood Token'),
-        ('clue token', 'Clue Token'),
-        ('food token', 'Food Token'),
-        ('gold token', 'Gold Token'),
-        ('incubator token', 'Incubator Token'),
-        ('junk token', 'Junk Token'),
-        ('map token', 'Map Token'),
-        ('powerstone token', 'Powerstone Token'),
-        ('treasure token', 'Treasure Token'),
-        ('shard token', 'Shard Token'),
-        ('walker token', 'Walker Token'),
-        # ('1/1 white spirit creature token with flying', 'Spirit Token'),
-        # ('4/4 white angel creature token with flying', 'Angel Token'),
-        # TODO: parse tokens.xml for tokens
-    ):
-        if token_string in get_text(card).lower():
+    if layout.text == 'adventure':
+        SubElement(card_element, 'related', attach='attach').text = 'On an Adventure'
+
+    rules = get_text(card).lower()
+    added_tokens: list[str] = []
+    for token_string, token_name in tokens.items():
+        if token_string in rules and token_name not in added_tokens:
+            added_tokens.append(token_name)
             SubElement(card_element, 'related').text = token_name
 
     for match in re.findall(r'.+ creature token .+', get_text(card).lower()):
@@ -483,6 +469,93 @@ def main():
     for name in card_names:
         if ' // ' in name:
             card_names += name.split(' // ')
+
+    tokens = {
+        'blood token': 'Blood Token',
+        'clue token': 'Clue Token',
+        'food token': 'Food Token',
+        'gold token': 'Gold Token',
+        'incubator token': 'Incubator Token',
+        'junk token': 'Junk Token',
+        'map token': 'Map Token',
+        'powerstone token': 'Powerstone Token',
+        'treasure token': 'Treasure Token',
+        'shard token': 'Shard Token',
+        'walker token': 'Walker Token',
+    }
+
+    tokens_xml = fromstring(
+        requests.get(
+            'https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml',
+            timeout=10,
+        ).text
+    )
+
+    for token in tokens_xml.iter('card'):
+        name = token.find('name')
+        if name is None or name.text is None:
+            continue
+
+        if not name.text.rstrip().endswith(' Token'):
+            continue
+
+        prop = token.find('prop')
+        if prop is None:
+            continue
+
+        pt = prop.find('pt')
+        if pt is None or pt.text is None:
+            continue
+
+        token_string = pt.text + ' '
+
+        colors_element = prop.find('colors')
+        colors = '' if colors_element is None else colors_element.text or ''
+
+        if len(colors) > 2:
+            continue
+
+        if colors == '':
+            token_string += 'colorless '
+        else:
+            token_string += ' and '.join([color_names[color] for color in colors]) + ' '
+
+        type_element = prop.find('type')
+        if type_element is None or type_element.text is None:
+            continue
+
+        types = type_element.text.split('—')
+        if len(types) != 2 or not re.match(r'token.* creature .*', types[0].lower()):
+            continue
+
+        token_string += types[1].strip() + ' '
+        token_string += types[0][len('token') :].strip() + ' '
+        tokens_string = token_string
+        token_string += 'token'
+        tokens_string += 'tokens'
+
+        text = token.find('text')
+        if text is not None:
+            if text.text is None or '\n' in text.text:
+                continue
+
+            abilities = text.text.split(', ')
+
+            with_string = ' with'
+
+            for i, ability in enumerate(abilities):
+                if i == 0:
+                    with_string += ' ' + ability
+                elif i == len(abilities) - 1:
+                    with_string += ' and ' + ability
+                else:
+                    with_string += ', ' + ability
+
+            token_string += with_string
+            tokens_string += with_string
+
+        tokens[token_string.lower()] = name.text
+        tokens[tokens_string.lower()] = name.text
 
     with open('cards.json', encoding='utf-8') as file:
         data: dict[str, dict[str, Card]] = json.load(file)
@@ -594,6 +667,7 @@ def main():
                     else None
                 ),
                 card['info']['id'] in dfcs.values(),
+                tokens,
             )
 
     indent(root)
@@ -607,6 +681,9 @@ def main():
                 short_empty_elements=False,
             )
         )
+
+
+color_names = {'W': 'White', 'U': 'Blue', 'B': 'Black', 'R': 'Red', 'G': 'Green'}
 
 
 if __name__ == '__main__':

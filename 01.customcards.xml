@@ -817,6 +817,7 @@ Whenever an Angel you control dies, create a1/1 white Spirit creature token with
         <pt>1/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_64f724ff64d00.png" rarity="common" num="2023">MCBU-ARAKRON</set>
+      <related>Spirit Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -856,6 +857,7 @@ Tyrande Whisperwind is the current faction leader of the Night Elves. She was ch
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_64f722c63d08f.png" rarity="common" num="2023">MCBU-ARAKRON</set>
+      <related>Angel Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1003,6 +1005,7 @@ Sacrifice a Wolf creature: Smalljon Umber gets +2/+2 until end of turn.
         <pt>4/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_649efc1bb46ee.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Wolf Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1319,6 +1322,7 @@ Whenever a creature you control dies, you may pay {1}. If you do, create a 1/1 w
         <pt>2/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_64985d7d2adf7.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Spirit Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1468,6 +1472,7 @@ At the beginning of your upkeep, you may pay 3 life. If you do, create a 2/2 bla
         <pt>4/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6495f71157cc0.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Zombie Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1768,6 +1773,7 @@ At the beginning of your end step, if you control a creature with power 4 or gre
         <pt>4/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_649354da04d8c.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Soldier Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1789,6 +1795,8 @@ At the beginning of your upkeep, if you control more creatures than each opponen
         <pt>3/3</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_648f63d107f49.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Rogue Token</related>
+      <related>Rogue Token </related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1810,6 +1818,7 @@ At the beginning of your upkeep, you may exile a Soldier creature card from your
         <pt>4/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_648f5b1ed625a.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Soldier Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1831,6 +1840,7 @@ Whenever Loras Tyrell deals combat damage to a player, create a 1/1 green Plant 
         <pt>3/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_648f59340d99a.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Plant Token </related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -1960,6 +1970,7 @@ Whenever a creature an opponent controls dies, put a +1/+1 counter on Tywin Lann
         <pt>4/5</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_648cc0f502fde.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Soldier Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -2269,6 +2280,7 @@ Whenever a creature an opponent controls dies, put a +1/+1 counter on Night King
         <pt>5/5</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6484b8e9c047c.png" rarity="mythic" num="2023">MCBU-MYGROUPEE</set>
+      <related>Zombie Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -2354,6 +2366,7 @@ Whenever you cast a red spell, you may exile the top card of your library. If it
         <pt>3/3</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_64810ab111440.png" rarity="rare" num="2023">MCBU-MYGROUPEE</set>
+      <related>Zombie Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -4088,6 +4101,7 @@ Whenever you cast a kicked spell or a spell with mana value 5 or more, you gain 
         <coloridentity>BG</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_661655ad4f0dd.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Elf Warrior Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -4176,6 +4190,7 @@ Equip {1}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_660bc644256b1.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -4492,6 +4507,7 @@ Draw a card.</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65f468ea8a759.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Bird Token </related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -4546,6 +4562,7 @@ When Beloved Princess leaves the battlefield, create a 1/1 white Spirit creature
         <pt>0/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65f45dc0c5001.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Spirit Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -4580,6 +4597,7 @@ Equip {2}</text>
         <cmc>2</cmc>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65f41992b6c7c.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -4695,6 +4713,7 @@ When Alluring Naiads enters the battlefield, target creature gets -2/-0 until en
         <pt>2/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65d369b418544.png" num="2023">MCBU-VOCQUAT</set>
+      <related attach="attach">On an Adventure</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -5083,6 +5102,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
         <coloridentity>WR</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65269a42cf2e5.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Human Warrior Token </related>
       <tablerow>0</tablerow>
     </card>
     <card>
@@ -5494,6 +5514,7 @@ Until the end of your next combat phase, creatures you control get +2/+0 and tra
         <coloridentity>WG</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652689d1a0b28.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Human Soldier Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -5512,6 +5533,7 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</t
         <pt>4/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6526895f6eb91.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Insect Token  </related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -5741,6 +5763,7 @@ Equip {2}</text>
         <cmc>4</cmc>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65266892efdad.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -5950,6 +5973,7 @@ Whenever a land enters the battlefield under you control, you may pay {2}{G}. If
         <pt>1/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65254a780eb9e.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
+      <related>Saproling Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -6185,6 +6209,7 @@ Whenever one or more +1/+1 counters are put on Friendly Oak, you may create a 1/
         <pt>1/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652541609270c.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Elf Warrior Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -6262,6 +6287,7 @@ Equip {2}</text>
         <coloridentity>R</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65250d4096dfb.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -6385,6 +6411,7 @@ Draw a Card.</text>
         <coloridentity>R</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652507bcedfb3.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -6404,6 +6431,7 @@ Cycling {2}</text>
         <coloridentity>R</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65250743bb918.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -6423,6 +6451,7 @@ Cycling {2}</text>
         <coloridentity>R</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65250653a5418.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
+      <related>Elemental Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -6476,6 +6505,7 @@ When Expendable Front-Liner dies, create a 1/1 colorless Servo artifact creature
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652504772c72e.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -6572,6 +6602,7 @@ Quand Alex, En Roue Libre arrive sur le champ de bataille, choississez l’un �
         <pt>2/3</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6525013147e65.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Thopter Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -6732,6 +6763,7 @@ Cycling {2}</text>
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651fc3cf0fbb2.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -7219,6 +7251,7 @@ Sacrifice an Elf: Target player loses 1 life and you gain 1 life.</text>
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651e6b43e3314.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Elf Warrior Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -7326,6 +7359,7 @@ When Poison Hunter dies, target creature you don’t control gets -1/-1 until en
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651e67e48e2be.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Insect Token       </related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -7599,6 +7633,7 @@ When Emmanuel, Excessive Thinker enters the battlefield, choose one —
         <pt>0/3</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d1eb9809d0.png" rarity="mythic" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -7709,6 +7744,7 @@ Whenever you draw your second card each turn, put a +1/+1 counter on Cloud Drake
         <pt>1/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651c29c2600f8.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Thopter Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -7765,6 +7801,7 @@ At the beginning of your end step, sacrifice a Clue token. If you do, create a T
         <pt>1/5</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651c1490892c3.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Thopter Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -7855,6 +7892,7 @@ When Hangarback Docker dies, create a 1/1 colorless Thopter artifact creature to
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bfd53a8235.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
+      <related>Thopter Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8034,6 +8072,7 @@ Equip {2}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bd734ebfd4.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -8051,6 +8090,7 @@ Cycling {2}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bd4477dc0e.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Human Soldier Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -8176,6 +8216,7 @@ Cycling {2}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651add83ad63e.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -8194,6 +8235,7 @@ Cycling {2}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651adca0b16b2.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -8212,6 +8254,7 @@ When Port-Town Captain or a nontoken enchantment enters the battlefield under yo
         <pt>3/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651ac553f3366.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
+      <related>Bird Token </related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8282,6 +8325,7 @@ When Weapons Specialist attacks, you may attach up to one target equipment you c
         <pt>2/4</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651abea671b51.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8360,6 +8404,7 @@ Cycling {2}</text>
         <pt>2/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651ab57bebaf8.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
+      <related>Servo Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8468,6 +8513,7 @@ Sacrifice Soul of the Martyr: Creatures and enchantments you control gain indest
         <pt>2/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651aab038d0d1.png" num="2023">MCBU-VOCQUAT</set>
+      <related>Human Soldier Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8521,6 +8567,7 @@ Cycling {1}</text>
         <pt>2/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651a8265b5053.png" num="2023">MCB-4</set>
+      <related>Human Soldier Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8745,6 +8792,7 @@ Goblin Hovels — Whenever a land enters the battlefield under your control, cre
         <pt>5/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_657454944f15c.png" num="083">MCBU-ZER0NATI0N</set>
+      <related>Goblin Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -9020,6 +9068,7 @@ Whenever Sensei Azukai of the Spore deals combat damage to a player, you may act
         <loyalty>4</loyalty>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_656adf2b414ed.png" num="2023">MCBU-ZER0NATI0N</set>
+      <related>Saproling Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -9210,6 +9259,7 @@ Mania, Goddess of Chaos can be your Commander.</text>
         <loyalty>4</loyalty>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6564ceeade869.png" num="019">MCBU-ZER0NATI0N</set>
+      <related>Spirit Token  </related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -10087,6 +10137,7 @@ Whenever you roll {CHAOS}, create a tapped 5/5 black Demon Creature Token with F
         <cmc>0</cmc>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6559a5c13c7c8.png" num="2023">MCB-AdvT</set>
+      <related>Demon Token</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -10144,6 +10195,7 @@ Sacrifice a creature: Create a 5/5 black Demon Creature Token with flying and ha
         <pt>2/6</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_655991330960b.png" num="101">MCB-AdvT</set>
+      <related>Demon Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -11877,6 +11929,7 @@ Sacrifice three creatures: Return Skye, Selfish Celestial from your graveyard to
         <pt>3/3</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65ebce3d03042.png" num="2024">MCB-GMP</set>
+      <related>Zombie Token</related>
       <tablerow>2</tablerow>
     </card>
     <card>
