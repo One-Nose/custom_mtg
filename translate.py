@@ -367,9 +367,10 @@ def add_card(
         set_element.attrib['num'] = match[1]
 
     if back_side is not None:
-        SubElement(card_element, 'related', attach='transform').text = get_card_name(
-            back_side
-        )
+        for string in ('related', 'reverse-related'):
+            SubElement(card_element, string, attach='transform').text = get_card_name(
+                back_side
+            )
 
     if layout.text == 'adventure':
         SubElement(card_element, 'related', attach='attach').text = 'On an Adventure'
@@ -482,6 +483,7 @@ def main():
         'treasure token': 'Treasure Token',
         'shard token': 'Shard Token',
         'walker token': 'Walker Token',
+        'daybound': 'Day',
     }
 
     tokens_xml = fromstring(

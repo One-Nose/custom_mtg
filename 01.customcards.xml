@@ -8626,6 +8626,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65a5916b6c7fd.png" num="2024">MCBU-ZER0NATI0N</set>
       <related attach="transform">Aalia, the Content</related>
+      <reverse-related attach="transform">Aalia, the Content</reverse-related>
+      <related>Day</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8646,6 +8648,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65a534b03a6c9.png" num="2024">MCBU-ZER0NATI0N</set>
       <related attach="transform">Jaxon, Tormented</related>
+      <reverse-related attach="transform">Jaxon, Tormented</reverse-related>
+      <related>Day</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -8699,6 +8703,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65a5233762cf6.png" num="2024">MCBU-ZER0NATI0N</set>
       <related attach="transform">Ring of Nature’s Fury</related>
+      <reverse-related attach="transform">Ring of Nature’s Fury</reverse-related>
+      <related>Day</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -8734,6 +8740,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65a38bd84068b.png" num="2024">MCBU-ZER0NATI0N</set>
       <related attach="transform">Curse of the Moon</related>
+      <reverse-related attach="transform">Curse of the Moon</reverse-related>
+      <related>Day</related>
       <tablerow>1</tablerow>
     </card>
     <card>
@@ -8772,6 +8780,8 @@ Daybound (If a player casts no spells during their own turn, it becomes night ne
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65a37262b4e98.png" num="2024">MCBU-ZER0NATI0N</set>
       <related attach="transform">Anna, the Beast Within</related>
+      <reverse-related attach="transform">Anna, the Beast Within</reverse-related>
+      <related>Day</related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -10178,6 +10188,7 @@ Whenever you sacrifice a clue token, remove a Tenebrimagicology counter from Pep
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6559967c12f70.png" num="2023">MCB-AdvT</set>
       <related attach="transform">Peppermint Butler, Defiler of Demons</related>
+      <reverse-related attach="transform">Peppermint Butler, Defiler of Demons</reverse-related>
       <related>Clue Token</related>
       <tablerow>2</tablerow>
     </card>
@@ -11763,6 +11774,7 @@ At the beginning of combat on your turn, if your devotion to red, green and whit
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65eca09a2b23d.png" num="6">MCB-GMP</set>
       <related attach="transform">Avatar of Temoac</related>
+      <reverse-related attach="transform">Avatar of Temoac</reverse-related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -12120,6 +12132,7 @@ At the beginning of your end step, if two or more creatures entered the battlefi
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65380b51c9c00.png" rarity="rare" num="1">MCB-GMP</set>
       <related attach="transform">Adalet, Helm’s Justice</related>
+      <reverse-related attach="transform">Adalet, Helm’s Justice</reverse-related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -12192,6 +12205,7 @@ Whenever an elemental creature enters the battlefield under your control, if you
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6537e946850ec.png" rarity="mythic" num="10">MCB-GMP</set>
       <related attach="transform">Akiria, Nurtured by the Arcane</related>
+      <reverse-related attach="transform">Akiria, Nurtured by the Arcane</reverse-related>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -12229,6 +12243,7 @@ Whenever another creature you control dies, investigate. If that creature was a 
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651c30a34bc76.png" rarity="uncommon" num="19">MCB-GMP</set>
       <related attach="transform">Jurine Gant, Vengeful Assassin</related>
+      <reverse-related attach="transform">Jurine Gant, Vengeful Assassin</reverse-related>
       <tablerow>2</tablerow>
     </card>
   </cards>
