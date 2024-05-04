@@ -399,22 +399,32 @@ def add_card(
         SubElement(card_element, 'token').text = '1'
 
     tablerow = SubElement(card_element, 'tablerow')
-    match card['info']['category']:
-        case 'land':
+    match maintype.text:
+        case 'Land':
             tablerow.text = '0'
-        case 'artifact' | 'enchantment' | 'planeswalker':
+        case 'Artifact' | 'Enchantment' | 'Planeswalker':
             tablerow.text = '1'
-        case 'creature':
+        case 'Creature':
             tablerow.text = '2'
-        case 'instant' | 'sorcery':
+        case 'Instant' | 'Sorcery':
             tablerow.text = '3'
         case _:
-            if 'creature' in card_types:
-                tablerow.text = '2'
-            elif 'land' in card_types:
-                tablerow.text = '0'
-            else:
-                tablerow.text = '1'
+            match card['info']['category']:
+                case 'land':
+                    tablerow.text = '0'
+                case 'artifact' | 'enchantment' | 'planeswalker':
+                    tablerow.text = '1'
+                case 'creature':
+                    tablerow.text = '2'
+                case 'instant' | 'sorcery':
+                    tablerow.text = '3'
+                case _:
+                    if 'creature' in card_types:
+                        tablerow.text = '2'
+                    elif 'land' in card_types:
+                        tablerow.text = '0'
+                    else:
+                        tablerow.text = '1'
 
     if any(
         f'{s.lower()} enters the battlefield tapped' in text.lower()

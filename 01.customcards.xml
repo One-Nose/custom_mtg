@@ -4714,7 +4714,7 @@ When Alluring Naiads enters the battlefield, target creature gets -2/-0 until en
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65d369b418544.png" num="2023">MCBU-VOCQUAT</set>
       <related attach="attach">On an Adventure</related>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Exhaustive Research</name>
@@ -5310,7 +5310,7 @@ When Resilient Amoeba enters the battlefield, put a +1/+1 counter on another tar
         <coloridentity>UG</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6526923da05a5.png" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Zirda, the Dawnwaker</name>
@@ -5534,7 +5534,7 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</t
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6526895f6eb91.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
       <related>Insect Token  </related>
-      <tablerow>3</tablerow>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>New Gruul Charm</name>
@@ -5572,7 +5572,7 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</t
         <coloridentity>BR</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652688795536c.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Essence of Control</name>
@@ -5783,7 +5783,7 @@ Whenever you cycle or discard a card, you may pay {1}. If you do, choose one —
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652667ab3392b.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
       <related>Blood Token</related>
-      <tablerow>2</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Asylum Well</name>
@@ -5798,7 +5798,7 @@ Discard a card: Sacrifice Asylum Well</text>
         <cmc>2</cmc>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_6526673998595.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Lone Sentry</name>
@@ -5830,7 +5830,7 @@ Whenever you cast an artifact or enchantment spell, put a +1/+1 counter on Encha
         <pt>1/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652664699cbb5.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Unstoppable Soldier</name>
@@ -5846,7 +5846,7 @@ As Unstoppable Soldier enters the battlefield, you may pay {4}. If you do, it en
         <pt>3/2</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_652663b38efd8.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Splash of Sunshine</name>
@@ -5883,7 +5883,7 @@ Choose one. If the kicker was paid, choose both –
         <coloridentity>G</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65266237672f3.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Fight or Flight</name>
@@ -5916,7 +5916,7 @@ If you cast this spell during your main phase, put a +1/+1 counter on each of th
         <coloridentity>G</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65254c0f5ac14.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Adrien, The High</name>
@@ -6229,7 +6229,7 @@ Evolve
         <pt>3/1</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65250ed219d0b.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Tablet of the Forge</name>
@@ -6321,7 +6321,7 @@ Whenever you discard or cycle a card, Lightning Box deals 1 damage to any target
         <coloridentity>R</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65250b79cc27d.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>3</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Uncontrolled Fireball</name>
@@ -6452,7 +6452,7 @@ Cycling {2}</text>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_65250653a5418.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
       <related>Elemental Token</related>
-      <tablerow>2</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Orcish Blood Shaman</name>
@@ -6800,7 +6800,7 @@ Madness {2}{R}</text>
         <pt>4/3</pt>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651fc1248c409.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>3</tablerow>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Silent Takedown</name>
@@ -6855,7 +6855,7 @@ Need {2} (You may pay this card’s Need cost as long as it is in your sideboard
         <coloridentity>B</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651fbd08a1a90.png" rarity="rare" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>3</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Dark Faith</name>
@@ -6889,7 +6889,7 @@ Madness {1}{B}</text>
         <coloridentity>B</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651fbb287d040.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Take it Upon Yourself</name>
@@ -7027,7 +7027,7 @@ Exile target creature.</text>
         <coloridentity>B</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651e75a6c003c.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Reclusive Leshen</name>
@@ -7433,7 +7433,7 @@ Choose one -
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d27e2ee58e.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Careful Interest</name>
@@ -7451,7 +7451,7 @@ Whenever enchanted creature deals damage to an opponent, you may draw a card.</t
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d276a36b1d.png" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Infiltration</name>
@@ -7469,7 +7469,7 @@ Flashback {3}{U}</text>
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d2707f3571.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Carbon Copy</name>
@@ -7487,7 +7487,7 @@ Cycling {2}</text>
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d265e8d38d.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Suit Up</name>
@@ -7504,7 +7504,7 @@ Draw a card.</text>
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d25dc49bb1.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Power Tax</name>
@@ -7522,7 +7522,7 @@ Create a Treasure Token.</text>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d2567ad412.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
       <related>Treasure Token</related>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Crime Scene Investigation</name>
@@ -7539,7 +7539,7 @@ Investigate.</text>
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d250e6745f.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Investigation</name>
@@ -7556,7 +7556,7 @@ Flashback {1}{U}</text>
         <coloridentity>U</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651d21551ba17.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>2</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Pathfinder</name>
@@ -8037,7 +8037,7 @@ Cycling {2}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bd861c91d5.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Stroboscopic Light</name>
@@ -8091,7 +8091,7 @@ Cycling {2}</text>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bd4477dc0e.png" rarity="uncommon" num="2023">MCBU-VOCQUAT</set>
       <related>Human Soldier Token</related>
-      <tablerow>3</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Disenchanting Decree</name>
@@ -8130,7 +8130,7 @@ Cycling {1}</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bcfe146758.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>3</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Death and Taxes</name>
@@ -8164,7 +8164,7 @@ Create a 1/1 colorless Construct artifact enchantment creature token.</text>
         <coloridentity>W</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_651bce1091439.png" rarity="common" num="2023">MCBU-VOCQUAT</set>
-      <tablerow>1</tablerow>
+      <tablerow>3</tablerow>
     </card>
     <card>
       <name>Bureaucracy</name>
@@ -9079,7 +9079,7 @@ Whenever Sensei Azukai of the Spore deals combat damage to a player, you may act
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_656adf2b414ed.png" num="2023">MCBU-ZER0NATI0N</set>
       <related>Saproling Token</related>
-      <tablerow>1</tablerow>
+      <tablerow>2</tablerow>
     </card>
     <card>
       <name>Execution</name>
@@ -9953,7 +9953,7 @@ Curse {G}{G}{G}{G} (Pay {G}{G}{G}{G} and attach this Curse to target creature yo
         <coloridentity>G</coloridentity>
       </prop>
       <set picurl="https://www.scryfallapi.com/save/builder/imgs/tmp_655aeed575a46.png" num="692">MCB-AdvT</set>
-      <tablerow>2</tablerow>
+      <tablerow>1</tablerow>
     </card>
     <card>
       <name>Cinnamon Bun, Clumsy Convert</name>
