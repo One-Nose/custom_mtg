@@ -41,21 +41,17 @@
     ]
   },
   "layouts": {
-    "added": ["adventure", "normal", "planar", "transform"],
+    "added": ["adventure", "class", "normal", "planar", "transform"],
+    "TBA": ["flip","modal_dfc","mutate","saga"],
     "missing": [
       "aftermath",
       "augment",
       "case",
-      "class",
-      "flip",
       "host",
       "leveler",
       "meld",
-      "modal_dfc",
-      "mutate",
       "prototype",
       "reversible_card",
-      "saga",
       "scheme",
       "split",
       "vanguard"

@@ -170,7 +170,7 @@ class CardGallery:
         if pages > 20:
             raise TooManyPages
 
-        with tqdm(total=pages, desc='Pages') as progressbar:
+        with tqdm(total=pages, desc='Pages', leave=None) as progressbar:
             async with TaskGroup() as task_group:
                 tasks: list[Task[dict[str, Card]]] = []
                 for page in range(1, pages + 1):
