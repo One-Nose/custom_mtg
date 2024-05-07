@@ -380,7 +380,7 @@ def add_card(
     for token_string, token_name in tokens.items():
         if token_string in rules and token_name not in added_tokens:
             added_tokens.append(token_name)
-            SubElement(card_element, 'related').text = token_name
+            SubElement(card_element, 'related', count='x').text = token_name
 
     for match in re.findall(r'.+ creature token .+', get_text(card).lower()):
         tqdm.write(match)
@@ -392,8 +392,8 @@ def add_card(
     ):
         for creating_card in user_cards.values():
             if name.text in get_text(creating_card):
-                SubElement(card_element, 'reverse-related').text = get_card_name(
-                    creating_card
+                SubElement(card_element, 'reverse-related', count='x').text = (
+                    get_card_name(creating_card)
                 )
 
         SubElement(card_element, 'token').text = '1'
